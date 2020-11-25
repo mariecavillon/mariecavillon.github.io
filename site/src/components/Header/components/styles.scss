@@ -1,0 +1,12 @@
+@import '~variables';
+
+.logo {
+  font-family: $logo-font;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 500;
+  color: $color-black;
+  width: 100%;
+  text-align: center;
+  display: block;
+}

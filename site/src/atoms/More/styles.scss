@@ -1,0 +1,9 @@
+@import '~variables.scss';
+
+.more {
+  padding: 0 .5rem;
+
+  > svg path {
+    color: $color-green;
+  }
+}

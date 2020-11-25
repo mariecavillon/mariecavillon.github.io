@@ -1,0 +1,10 @@
+@import '~variables.scss';
+
+.less {
+  padding: 0 .5rem;
+
+  > svg path {
+    color: $color-green;
+  }
+}
+

@@ -1,0 +1,28 @@
+@import '~variables';
+
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: $padding-lg 0;
+  background-color: $color-green;
+}
+
+.grey {
+  background-color: $color-light-grey;
+}
+
+.title {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $color-white;
+  max-width: $content-wrapper;
+  margin: 0 auto;
+  text-align: center;
+}

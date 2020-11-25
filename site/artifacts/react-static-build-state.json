@@ -1,0 +1,69 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "/home/x_x/workspaces/marie/site/src/index.jsx",
+  "siteRoot": "https://dessinemoiunpatchwork.com",
+  "basePath": "",
+  "plugins": [
+    [
+      "/home/x_x/workspaces/marie/site/node_modules/react-static-plugin-sass/node.api.js",
+      {
+        "cssLoaderOptions": {
+          "modules": true,
+          "sourceMap": true
+        }
+      }
+    ],
+    "/home/x_x/workspaces/marie/site/node_modules/react-static-plugin-css-modules/node.api.js",
+    "/home/x_x/workspaces/marie/site/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/home/x_x/workspaces/marie/site/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/home/x_x/workspaces/marie/site"
+  ],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000,
+    "disableHostCheck": true,
+    "sockHost": "marie.dev",
+    "sockPort": "443"
+  },
+  "paths": {
+    "ROOT": "/home/x_x/workspaces/marie/site",
+    "SRC": "/home/x_x/workspaces/marie/site/src",
+    "DIST": "/home/x_x/workspaces/marie/site/dist",
+    "ASSETS": "/home/x_x/workspaces/marie/site/dist",
+    "PLUGINS": "/home/x_x/workspaces/marie/site/plugins",
+    "TEMP": "/home/x_x/workspaces/marie/site/tmp",
+    "ARTIFACTS": "/home/x_x/workspaces/marie/site/artifacts",
+    "PUBLIC": "/home/x_x/workspaces/marie/site/public",
+    "NODE_MODULES": "/home/x_x/workspaces/marie/site/node_modules",
+    "EXCLUDE_MODULES": "/home/x_x/workspaces/marie/site/node_modules",
+    "PACKAGE": "/home/x_x/workspaces/marie/site/package.json",
+    "HTML_TEMPLATE": "/home/x_x/workspaces/marie/site/dist/index.html",
+    "STATIC_DATA": "/home/x_x/workspaces/marie/site/dist/staticData"
+  },
+  "publicPath": "https://dessinemoiunpatchwork.com/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}

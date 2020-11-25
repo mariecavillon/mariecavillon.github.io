@@ -1,0 +1,14 @@
+import React from 'react';
+import { Link } from '@reach/router';
+import cn from 'classnames';
+
+import styles from './styles.scss';
+
+export const CustomLink = ({ children, to, className }) => (
+  <Link to={to} className={cn(styles.link, className)}>
+    {children}
+  </Link>
+);
+
+export default CustomLink;
+

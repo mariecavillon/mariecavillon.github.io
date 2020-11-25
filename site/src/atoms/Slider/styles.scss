@@ -1,0 +1,79 @@
+@import '~variables';
+
+.wrapper {
+  width: 100%;
+  max-width: $content-wrapper;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  overflow: hidden;
+}
+
+.item {
+  min-width: 100%;
+  text-align: center;
+  padding: 0 $padding-sm;
+}
+
+.8 .item {
+  animation: slide8 50s ease-in-out infinite;
+}
+
+@media (min-width: $layout-desktop) {
+  .item {
+    padding: 0;
+  }
+}
+
+@keyframes slide8 {
+  10.5% {
+    transform: translateX(0);
+  }
+  12.5% {
+    transform: translateX(-100%);
+  }
+  23% {
+    transform: translateX(-100%);
+  }
+  25% {
+    transform: translateX(-200%);
+  }
+  35.5% {
+    transform: translateX(-200%);
+  }
+  37.5% {
+    transform: translateX(-300%);
+  }
+  48% {
+    transform: translateX(-300%);
+  }
+  50% {
+    transform: translateX(-400%);
+  }
+  60.5% {
+    transform: translateX(-400%);
+  }
+  62.5% {
+    transform: translateX(-500%);
+  }
+  73% {
+    transform: translateX(-500%);
+  }
+  75% {
+    transform: translateX(-600%);
+  }
+  85.5% {
+    transform: translateX(-600%);
+  }
+  87.5% {
+    transform: translateX(-700%);
+  }
+  98% {
+    transform: translateX(-700%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

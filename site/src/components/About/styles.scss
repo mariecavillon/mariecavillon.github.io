@@ -1,0 +1,16 @@
+@import '~variables';
+
+.page {
+  margin-top: 80px;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.dropdown {
+  margin-bottom: $margin-lg;
+}
