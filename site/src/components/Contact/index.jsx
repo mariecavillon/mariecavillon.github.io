@@ -3,6 +3,7 @@ import { faCheck, faTimes, faSpinner } from '@fortawesome/free-solid-svg-icons';
 import cn from 'classnames';
 
 import { Button, Card, Grid, Icon, Input, Select, Textarea, Paragraph, Picture, Title, Section } from '~atoms';
+import { homePage } from '~routes';
 
 import styles from './styles.scss';
 
@@ -173,13 +174,15 @@ export const Contact = () => {
                 {formSubmissionError && (
                   <div className={styles.formError}>
                     <Icon icon={faTimes} className={styles.formErrorIcon} size="3x" />
-                    <Paragraph>Une erreur s'est produite lors de l'envoi du formulaire. Essayez de me contacter directement par mail ou téléphone.</Paragraph>
+                    <Paragraph>Une erreur s'est produite lors de l'envoi du formulaire. Veuillez réessayer plus tard.</Paragraph>
+                    <Button to={homePage.path}>Revenir a l'accueil</Button>
                   </div>
                 )}
                 {formSent && !formSubmissionError && (
                   <div className={styles.formSent}>
                     <Icon icon={faCheck} className={styles.formSentIcon} size="3x" />
-                    <Paragraph>Merci de prendre contact, je vous répond dans les plus brefs délais.</Paragraph>
+                    <Paragraph>Le formulaire a bien été envoyé.</Paragraph>
+                    <Button to={homePage.path}>Revenir a l'accueil</Button>
                   </div>
                 )}
                 <div className={styles.formWrapper}>
