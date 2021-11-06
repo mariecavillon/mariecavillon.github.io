@@ -25,6 +25,11 @@ install-node-lts:
 	. ~/.nvm/nvm.sh; \
 	nvm install 10.14
 
+.PHONY: install-dependencies
+install-dependencies: install-nvm install-node-lts
+	cd ./site; \
+	npm i
+
 .PHONY: install-static
 install-static:
 	npm i react-static
