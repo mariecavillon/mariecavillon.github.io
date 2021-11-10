@@ -2,6 +2,10 @@
 
 $title-bg: rgba(255,255,255,.7);
 
+.page {
+  margin-top: 80px;
+}
+
 .titleWrapper {
   margin: $header-height auto 0;
   padding: 100px 0;
@@ -114,7 +118,6 @@ $title-bg: rgba(255,255,255,.7);
 .exceptionSubtitle {
   font-size: 1.1rem;
   line-height: 0;
-  font-weight: 500;
 }
 
 .important {
@@ -159,3 +162,4 @@ $title-bg: rgba(255,255,255,.7);
     margin-top: calc(2 * #{$margin-lg});
   }
 }
+
