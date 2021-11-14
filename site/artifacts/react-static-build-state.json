@@ -14,7 +14,7 @@
   "productionSourceMaps": false,
   "silent": false,
   "entry": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/src/index.jsx",
-  "siteRoot": "https://dessinemoiunpatchwork.com",
+  "siteRoot": "https://patchwork-s.com",
   "basePath": "",
   "plugins": [
     [
@@ -53,7 +53,7 @@
     "HTML_TEMPLATE": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/dist/index.html",
     "STATIC_DATA": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/dist/staticData"
   },
-  "publicPath": "https://dessinemoiunpatchwork.com/",
+  "publicPath": "https://patchwork-s.com/",
   "assetsPath": "",
   "extractCssChunks": false,
   "inlineCss": false,
