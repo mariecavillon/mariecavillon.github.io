@@ -10,6 +10,12 @@ export const aboutPage = {
   title: 'Un peu de moi',
 };
 
+export const servicePage = {
+  path: '/services',
+  template: 'src/pages/Service',
+  title: 'Mes services',
+};
+
 export const homePage = {
   path: '/',
   template: 'src/pages/Home',
@@ -17,6 +23,7 @@ export const homePage = {
 
 export const routes = [
   homePage,
+  servicePage,
   aboutPage,
   contactPage,
   {

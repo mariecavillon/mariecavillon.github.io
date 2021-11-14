@@ -4,14 +4,15 @@
   margin: (2 * $margin-sm) 0;
   color: inherit;
   line-height: 1.6;
+  text-align: justify;
 
-  b {
-    font-weight: 600;
+  b, strong {
+    font-weight: 500;
   }
 }
 
 .strong {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .emphasis {

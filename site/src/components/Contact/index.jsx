@@ -73,6 +73,11 @@ const inputs = [
     options: ['Présentation / Fit', 'Informations tarifaires', 'Autres'],
   },
   {
+    type: 'textarea',
+    name: '$otherInterest',
+    label: 'Veuillez préciser',
+  },
+  {
     type: 'select',
     name: '$about',
     label: 'Vous êtes plutôt',
@@ -80,7 +85,7 @@ const inputs = [
   },
   {
     type: 'textarea',
-    name: '$other',
+    name: '$otherAbout',
     label: 'Veuillez préciser',
   },
 ];
@@ -95,11 +100,19 @@ export const Contact = () => {
   const [submitting, setSubmitting] = useState(false);
   const [formValues, setFormValues] = useState(false);
   const formElement = useRef(null);
-  const [displayConditionVerified, setDisplayConditionVerified] = useState(false);
+  const [displayInterestConditionVerified, setDisplayInterestConditionVerified] = useState(false);
+  const [displayAboutConditionVerified, setDisplayAboutConditionVerified] = useState(false);
 
   const toggleDisplayCondition = useCallback((val) => {
-    if ((val[0] === '$interest' && val[1] === 'Autres') || (val[0] === '$about' && val[1] === 'Autres')) {
-      setDisplayConditionVerified(true);
+    if (val[0] === '$interest' && val[1] === 'Autres') {
+      setDisplayInterestConditionVerified(true);
+    } else if (val[0] === '$interest') {
+      setDisplayInterestConditionVerified(false);
+    }
+    if (val[0] === '$about' && val[1] === 'Autres') {
+      setDisplayAboutConditionVerified(true);
+    } else if (val[0] === '$about') {
+      setDisplayAboutConditionVerified(false);
     }
   }, [inputList]);
 
@@ -187,7 +200,7 @@ export const Contact = () => {
                 )}
                 <div className={styles.formWrapper}>
                   {inputList.map(i => 
-                    i.type === 'select' ? (<Select key={i.name} className={styles.input} name={i.name} label={i.label} options={i.options} required err={i.errors && i.errors.length > 0 ? i.errors : null} onInput={toggleDisplayCondition} />) : i.type === 'textarea' ? (displayConditionVerified ? <Textarea key={i.name} className={styles.input} name={i.name} label={i.label} type={i.type} required validator={i.validator} err={i.errors} /> : null) : (<Input key={i.name} className={styles.input} name={i.name} label={i.label} type={i.type} required validator={i.validator} err={i.errors} />)
+                    i.type === 'select' ? (<Select key={i.name} className={styles.input} name={i.name} label={i.label} options={i.options} required err={i.errors && i.errors.length > 0 ? i.errors : null} onInput={toggleDisplayCondition} />) : i.type === 'textarea' ? (((displayInterestConditionVerified && i.name === '$otherInterest') || (displayAboutConditionVerified && i.name === '$otherAbout')) ? <Textarea key={i.name} className={styles.input} name={i.name} label={i.label} type={i.type} required validator={i.validator} err={i.errors} /> : null) : (<Input key={i.name} className={styles.input} name={i.name} label={i.label} type={i.type} required validator={i.validator} err={i.errors} />)
                   )}
                 </div>
                 <div className={styles.formActions}>

@@ -15,10 +15,12 @@
   min-width: 100%;
   text-align: center;
   padding: 0 $padding-sm;
+  display: flex;
+  flex-direction: column;
 }
 
 .8 .item {
-  animation: slide8 50s ease-in-out infinite;
+  animation: slide8 80s ease-in-out infinite;
 }
 
 @media (min-width: $layout-desktop) {

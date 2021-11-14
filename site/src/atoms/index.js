@@ -21,3 +21,4 @@ export { default as Slider } from './Slider';
 export { default as Textarea } from './Textarea';
 export { default as Link } from './Link';
 export { default as Animate } from './Animate';
+export { default as Quote } from './Quote';

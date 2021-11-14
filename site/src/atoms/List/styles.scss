@@ -5,18 +5,20 @@ $margin: $margin-lg;
 .list {
   list-style-type: none;
   line-height: 1.6;
-  margin: (2 * $margin-sm) 0;
+  margin: $margin-sm 0;
 
   li {
     display: flex;
-    margin-bottom: $margin / 4;
     align-items: flex-start;
 
     &:before {
       content: '•';
       font-size: 2rem;
-      line-height: 1.5rem;
+      line-height: 1.6;
       padding: 0 1rem;
+      max-height: 1.6rem;
+      display: flex;
+      align-items: center;
     }
   }
 
@@ -25,6 +27,6 @@ $margin: $margin-lg;
   }
 
   b, strong {
-    font-weight: 600;
+    font-weight: 500;
   }
 }

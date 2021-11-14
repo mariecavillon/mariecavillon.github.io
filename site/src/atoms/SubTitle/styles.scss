@@ -17,13 +17,20 @@
 }
 
 .sub {
-  font-size: 1.1rem;
+  margin-top: $margin-sm;
+  font-size: 1.3rem;
+  font-weight: 500;
+  display: inline-block;
 }
 
 @media (min-width: $layout-desktop) {
   .title {
     font-size: $font-subtitle;
     margin-bottom: $margin-lg;
+  }
+
+  .sub {
+    margin-top: $margin-lg;
   }
 
   .small {

@@ -14,8 +14,8 @@ export const Hero = ({ grey, children }) => (
 Hero.Title = ({ children }) => (
   <Title className={styles.title}>{children}</Title>
 );
-Hero.Content = ({ children, className }) => (
-  <div className={cn(styles.content, className)}>
+Hero.Content = ({ children, className, horizontal }) => (
+  <div className={cn(styles.content, className, {[styles.horizontal]: horizontal})}>
     {children}
   </div>
 );

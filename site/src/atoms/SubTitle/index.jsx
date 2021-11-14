@@ -10,9 +10,9 @@ export const SubTitle = ({ className, children, small }) => (
 );
 
 SubTitle.Sub = ({ className, children }) => (
-  <strong className={cn(styles.sub, className)}>
+  <span className={cn(styles.sub, className)}>
     {children}
-  </strong>
+  </span>
 );
 
 export default SubTitle;
