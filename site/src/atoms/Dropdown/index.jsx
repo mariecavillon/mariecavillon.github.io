@@ -6,7 +6,7 @@ import styles from './styles.scss';
 const Context = React.createContext();
 
 export const Dropdown = ({ children, className }) => {
-  const [context, setContext] = useState({ on: false, toggle });
+  const [context, setContext] = useState({ on: true, toggle });
   const toggle = () => setContext((e) => ({ ...e,  on: !e.on }));
 
   useEffect(() => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import cn from 'classnames';
 
-import { More, Less, Dropdown, Card, Grid, Paragraph, Title, SubTitle, Section, Button } from '~atoms';
+import { More, Less, Dropdown, Card, Grid, Paragraph, Title, SubTitle, Section, Button, Link } from '~atoms';
 import { contactPage } from '~routes';
 
 import styles from './styles.scss';
@@ -13,10 +13,10 @@ export const About = () => (
         <Grid.Item col="011">
           <Card>
             <Title>Bonjour, moi c'est Marie</Title>
-            <Paragraph>J'ai grandi, vécu et travaillé à l'<b>étranger</b> toute ma vie (9 pays différents à mon actif, sur 6 continents!), ce qui fait également de moi une CCK*!, et a conditionné qui je suis et les projets que j’entreprends.<br/><br/><small><i>* CCK: Enfant ayant vécu au sein de - ou interagi de façon significative avec -  deux ou plusieurs cultures au cours de ses années de formation (dix-huit premières années de vie)</i></small></Paragraph>
+            <Paragraph>J'ai grandi, vécu et travaillé à l'<b>étranger</b> toute ma vie (9 pays différents à mon actif, sur 6 continents!), ce qui fait également de moi une CCK*!, et a influencé qui je suis et les projets que j’entreprends.<br/><br/><small><i>* CCK (Cross Culture Kid): Enfant ayant vécu au sein de - ou interagi de façon significative avec -  deux ou plusieurs cultures au cours de ses années de formation (en savoir plus <Link to="https://globallygrounded.com/third-culture-kids/">ici</Link>)</i></small></Paragraph>
             <SubTitle>Entre Diversité & Curiosité de l’être humain</SubTitle>
-            <Paragraph>J’ai débuté ma carrière dans l’<b>accompagnement d’entreprises</b>, sur des sujets de Marketing Digital, sur des projets très variés et dans des environnements toujours challengeants & innovants - en agence, puis en conseil, pour finir en start-up /scale-up.</Paragraph>
-            <Paragraph>Passionnée par ce qui meut l’être humain et les rend si uniques, mes rôles de Manager ont renforcé mon envie d’accompagner les personnes dans leur <b>potentialisation</b>.<br/>C’est en suivant cette envie intérieure forte, et fort du constat que nous sommes nombreux à accepter les status quo en limitant ainsi nos options de développement et de réalisation, que je me suis engagée dans une <b>formation certifiante</b> (RNCP et ICF niveau PCC) et dans la <b>pratique du coaching</b>.</Paragraph>
+            <Paragraph>J’ai débuté ma carrière dans l’<b>accompagnement d’entreprises</b>, sur des sujets de transformation digital, sur des projets très variés et dans des environnements toujours challengeants & innovants - en agence, puis en conseil, pour finir en start-up /scale-up.</Paragraph>
+            <Paragraph>C’est en suivant cette envie intérieure forte, et fort du constat que nous sommes nombreux à accepter les status quo en limitant ainsi nos options de développement et de réalisation, que j’ai souhaité approfondir ma connaissance de la psychologie et du développement humain et que je suis maintenant <b>Coach certifiée</b> depuis Septembre 2020 (titre RNCP - reconnu par l'Etat - et ICF niveau PCC), avec près de <b>100 heures de pratique</b> à mon actif.</Paragraph>
           </Card>
         </Grid.Item>
       </Grid>

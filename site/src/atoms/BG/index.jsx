@@ -20,7 +20,7 @@ import pencilHeads from '~images/pencil-heads.jpg';
 import pencilRainbow from '~images/pencil-rainbow.jpg';
 import tableCoffee from '~images/table-coffee.jpg';
 import table from '~images/table.jpg';
-import marie from '~images/marie.jpg';
+import marie from '~images/marie-profile.jpg';
 
 import styles from './styles.scss';
 
@@ -514,6 +514,7 @@ export const BgMarie = ({ className }) => {
               <rect x="0" y="0" width="233.4" height="233.4" transform="matrix(0.707,0.707,-0.707,0.707,165,720)"/>
               <rect x="0" y="0" width="233.4" height="233.4" transform="matrix(0.707,0.707,-0.707,0.707,525,720)"/>
               <rect x="0" y="0" width="233.4" height="233.4" transform="matrix(0.707,0.707,-0.707,0.707,345,-180)"/>
+              <rect x="0" y="0" width="233.4" height="233.4" transform="matrix(0.707,0.707,-0.707,0.707,345,900)"/>
             </clipPath>
           </defs>
           <g clipPath="url(#mask)">

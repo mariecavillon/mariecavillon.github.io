@@ -4,7 +4,7 @@ import { Link } from '@reach/router';
 import { logo } from './styles.scss';
 
 const Logo = () => (
-  <Link to="/" className={logo}>Dessine.Moi.Un.Patchwork</Link>
+  <Link to="/" className={logo}>Patchwork-s</Link>
 );
 
 export default Logo;
