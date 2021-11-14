@@ -4,7 +4,7 @@ import path from 'path'
 import routes from './src/routes';
 
 export default {
-  siteRoot: 'https://dessinemoiunpatchwork.com',
+  siteRoot: 'https://patchwork-s.com',
   basePath: '',
   entry: path.join(__dirname, 'src', 'index.jsx'),
   getRoutes: async ({ dev }) => routes.reduce((a, r) => {
