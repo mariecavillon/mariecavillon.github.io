@@ -1,17 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { AppContainer } from 'react-hot-loader'
-import ReactGA from 'react-ga';
 
 import App from './App'
 
 export default App
-
-const GA = {
-  id: 'UA-31756540-1',
-  options: {
-  },
-};
 
 if (typeof document !== 'undefined') {
   const target = document.getElementById('root');
@@ -29,7 +22,6 @@ if (typeof document !== 'undefined') {
     )
   }
 
-  ReactGA.initialize(GA.id, GA.options);
   render(App);
 
   if (module && module.hot) {

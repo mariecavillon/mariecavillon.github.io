@@ -1,0 +1,9 @@
+@import './variables.scss';
+
+.banner {
+  font-family: $font-family !important;
+  background-color: $color-light-grey !important;
+  display: flex !important;
+  align-items: center !important;
+  padding: $padding-lg !important;
+}

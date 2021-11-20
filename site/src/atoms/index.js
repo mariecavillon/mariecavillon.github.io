@@ -22,3 +22,4 @@ export { default as Textarea } from './Textarea';
 export { default as Link } from './Link';
 export { default as Animate } from './Animate';
 export { default as Quote } from './Quote';
+export { default as Ga } from './GA';
