@@ -31,3 +31,11 @@ export const usePageNavigation = () => {
 
   return [currentPage];
 };
+
+export const useGa = () => {
+  const browserWindow = typeof window !== 'undefined' ? window : undefined;
+
+  const gtag = browserWindow && browserWindow.gtag;
+
+  return [gtag];
+};
