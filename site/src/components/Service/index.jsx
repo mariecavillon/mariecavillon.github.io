@@ -63,7 +63,7 @@ export const Service = () => (
                 <Paragraph className={styles.left}><b>Expats</b> ou <b>A-CCK</b>*,  vous vous caractérisez par une <b>vie hautement mobile</b>.</Paragraph>
                 <Paragraph className={styles.left}>Le <b>changement</b> et la <b>nouveauté</b> font partie intégrante de votre quotidien. C’est excitant mais ça comporte aussi son <b>lot de challenge: appréhender la dimension émotionnelle de la complexité culturelle</b> (intégration, adaptation constante, recherche de stabilité & de repère, chamboulement identitaire…)</Paragraph>
                 <Paragraph className={styles.left}>Autant de sujet que nous pouvons aborder ensemble pour que vous puissiez <b>profiter pleinement</b> de ces expériences multiculturelles et transformantes!</Paragraph>
-                <Paragraph className={styles.left}><small><i>* CCK (Cross Culture Kids): Enfant ayant vécu au sein de - ou interagi de façon significative avec -  deux ou plusieurs cultures au cours de ses années de formation <i>(en savoir plus <Link to="https://globallygrounded.com/third-culture-kids/">ici</Link>)</i><br/>* A-CCK: CCK devenu adulte</i></small></Paragraph>
+                <Paragraph className={styles.left}><small><i>* CCK (Cross Culture Kids): Enfant ayant vécu au sein de - ou interagi de façon significative avec -  deux ou plusieurs cultures au cours de ses années de formation <i>(en savoir plus <Link to="https://globallygrounded.com/third-culture-kids/" external>ici</Link>)</i><br/>* A-CCK: CCK devenu adulte</i></small></Paragraph>
               </Modal.Content>
             </Modal>
             <Modal>

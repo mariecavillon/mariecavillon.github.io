@@ -7,7 +7,7 @@ import styles from './styles.scss';
 export const Button = ({ children, to, className, onClick, inverse }) => (
   <>
     {to ? (
-      <Link to={to} className={cn(styles.button, className, {[styles.inverse]: inverse})}>
+      <Link to={to} className={cn(styles.button, className, {[styles.inverse]: inverse})} onClick={onClick}>
         {children}
       </Link>
     ) : (
