@@ -1,0 +1,69 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/src/index.jsx",
+  "siteRoot": "https://patchwork-s.com",
+  "basePath": "",
+  "plugins": [
+    [
+      "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/node_modules/react-static-plugin-sass/node.api.js",
+      {
+        "cssLoaderOptions": {
+          "modules": true,
+          "sourceMap": true
+        }
+      }
+    ],
+    "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/node_modules/react-static-plugin-css-modules/node.api.js",
+    "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site"
+  ],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000,
+    "disableHostCheck": true,
+    "sockHost": "marie.dev",
+    "sockPort": "443"
+  },
+  "paths": {
+    "ROOT": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site",
+    "SRC": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/src",
+    "DIST": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/dist",
+    "ASSETS": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/dist",
+    "PLUGINS": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/plugins",
+    "TEMP": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/tmp",
+    "ARTIFACTS": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/artifacts",
+    "PUBLIC": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/public",
+    "NODE_MODULES": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/node_modules",
+    "EXCLUDE_MODULES": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/node_modules",
+    "PACKAGE": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/package.json",
+    "HTML_TEMPLATE": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/dist/index.html",
+    "STATIC_DATA": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/dist/staticData"
+  },
+  "publicPath": "https://patchwork-s.com/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
