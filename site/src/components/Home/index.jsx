@@ -3,10 +3,14 @@ import cn from 'classnames';
 
 import { BgImage, Card, Dropdown, Grid, PageContainer, Paragraph, Button, Section, Title, SubTitle, More, Less, List, Hero, Modal, Slider, Link, Animate, Quote } from '~atoms';
 import { servicePage, aboutPage, contactPage } from '~routes';
+import { useGa } from '~hooks';
+import gaTags from '~tags';
 
 import styles from './styles.scss';
 
 export const Home = () => {
+  const [_, sendEvent] = useGa();
+
   return (
     <>
       <Section bg home>
@@ -59,9 +63,9 @@ export const Home = () => {
         <Hero grey>
           <Hero.Title>Vous souhaitez en savoir plus ?</Hero.Title>
           <Hero.Content horizontal>
-            <Button to={servicePage.path}>Mes services</Button>
-            <Button to={aboutPage.path}>Un peu de moi</Button>
-            <Button to={contactPage.path}>Contactez moi</Button>
+            <Button to={servicePage.path} onClick={sendEvent(gaTags.home.button.service)}>Mes services</Button>
+            <Button to={aboutPage.path} onClick={sendEvent(gaTags.home.button.about)}>Un peu de moi</Button>
+            <Button to={contactPage.path} onClick={sendEvent(gaTags.home.button.contact)}>Contactez moi</Button>
           </Hero.Content>
         </Hero>
       </Section>

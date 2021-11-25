@@ -16,6 +16,7 @@ export default pluginOptions => ({
         '~images': path.resolve('./src/assets'),
         '~hooks': path.resolve('./src/hooks.jsx'),
         '~tags': path.resolve('./src/tags'),
+        '~utils': path.resolve('./src/utils'),
       },
     },
   }),

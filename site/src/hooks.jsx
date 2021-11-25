@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useRef, useState, useEffect, useCallback } from 'react';
 
 export const usePageNavigation = () => {
   const browserWindow = typeof window !== 'undefined' ? window : undefined;
@@ -37,5 +37,7 @@ export const useGa = () => {
 
   const gtag = browserWindow && browserWindow.gtag;
 
-  return [gtag];
+  const sendEvent = useCallback((eventName, eventProperties) => () => eventName && gtag && gtag('event', eventName, eventProperties), [gtag]);
+
+  return [gtag, sendEvent];
 };
