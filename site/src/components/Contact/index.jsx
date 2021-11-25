@@ -4,6 +4,8 @@ import cn from 'classnames';
 
 import { Button, Card, Grid, Icon, Input, Select, Textarea, Paragraph, Picture, Title, Section } from '~atoms';
 import { homePage } from '~routes';
+import { useGa } from '~hooks';
+import gaTags from '~tags';
 
 import styles from './styles.scss';
 
@@ -102,6 +104,7 @@ export const Contact = () => {
   const formElement = useRef(null);
   const [displayInterestConditionVerified, setDisplayInterestConditionVerified] = useState(false);
   const [displayAboutConditionVerified, setDisplayAboutConditionVerified] = useState(false);
+  const [_, sendEvent] = useGa();
 
   const toggleDisplayCondition = useCallback((val) => {
     if (val[0] === '$interest' && val[1] === 'Autres') {
@@ -137,6 +140,7 @@ export const Contact = () => {
 
         setFormSent(true);
         setSubmitting(false);
+        sendEvent(gaTags.contact.form.sent);
       } catch (e) {
         setFormSubmissionError(true);
         setSubmitting(false);
@@ -150,6 +154,7 @@ export const Contact = () => {
     e.preventDefault();
 
     setSubmitting(true);
+    sendEvent(gaTags.contact.form.started);
 
     const newInputList = inputList.map(i => ({
       ...i,
