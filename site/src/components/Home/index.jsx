@@ -52,7 +52,7 @@ export const Home = () => {
             <Card>
               <Title noMargin>Le coaching comme un Atelier d’assemblage en perpétuelle évolution</Title>
               <Paragraph>Ma conviction: <Quote>Comme un Patchwork, nous tissons notre Vie, récit par récit, reliant nos Expériences par le fil de nos Apprentissages</Quote></Paragraph>
-              <Paragraph>Mon expérience atypique riche en <b>diversité & multiculturalité</b> (en savoir plus sur moi <Link to={aboutPage.path}>ici&nbsp;!</Link>) m’a amenée à avoir une lecture du monde multiple, dynamique et non linéaire - ouvrant le champ des possibles.<br/>A l’instar d’un patchwork, j’ai donc tissé mon parcours et mon identité, avec des morceaux, tous très différents, mais tous uniques, utiles et <b>singuliers</b>.</Paragraph>
+              <Paragraph>Mon expérience atypique riche en <b>diversité & multiculturalité</b> (en savoir plus sur moi <Link to={aboutPage.path}>ici</Link>&nbsp;!) m’a amenée à avoir une lecture du monde multiple, dynamique et non linéaire - ouvrant le champ des possibles.<br/>A l’instar d’un patchwork, j’ai donc tissé mon parcours et mon identité, avec des morceaux, tous très différents, mais tous uniques, utiles et <b>singuliers</b>.</Paragraph>
               <Paragraph>C’est dans cet état d’esprit que je souhaite vous <b>accompagner</b>.</Paragraph>
               <Paragraph><b>Déployons</b>, ensemble, votre <b>potentiel</b> & votre Patchwork en s’appuyant sur ces expériences de vies, Celles qui ont compté pour vous, vous ont aidé ou celles qui ont été source d'<b>apprentissage</b> et qui recèlent de ressources insoupçonnées pour <b>transformer positivement votre présent</b>.</Paragraph>
             </Card>

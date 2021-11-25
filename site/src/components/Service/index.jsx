@@ -158,7 +158,7 @@ export const Service = () => {
                 </Dropdown.Trigger>
                 <Dropdown.Content>
                   <List>
-                    <List.Item>Un coaching pour Xplorateurs de Sens et Global Nomads <b>PAR</b> une Exploratrice de Sens et Global Nomad. (En savoir plus sur moi <Link to={aboutPage.path}>ici</Link>)<br/><br/>Ainsi, parce que je connais ces enjeux et la complexité de ces environnements, parce que j’ai traversé les <b>difficultés</b> qui vont avec, j’ai choisi d’apporter ce <b>soutien</b> à ceux qui traverse les mêmes épreuves.</List.Item>
+                    <List.Item>Un coaching pour Explorateurs de Sens et Global Nomads <b>PAR</b> une Exploratrice de Sens et Global Nomad. (En savoir plus sur moi <Link to={aboutPage.path}>ici</Link>)<br/><br/>Ainsi, parce que je connais ces enjeux et la complexité de ces environnements, parce que j’ai traversé les <b>difficultés</b> qui vont avec, j’ai choisi d’apporter ce <b>soutien</b> à ceux qui traverse les mêmes épreuves.</List.Item>
                   </List>
                 </Dropdown.Content>
               </Dropdown>
