@@ -21,7 +21,7 @@ export const About = () => {
               <Paragraph>J'ai grandi, vécu et travaillé à l'<b>étranger</b> toute ma vie (9 pays différents à mon actif, sur 6 continents!), ce qui fait également de moi une CCK*!, et a influencé qui je suis et les projets que j’entreprends.<br/><br/><small><i>* CCK (Cross Culture Kid): Enfant ayant vécu au sein de - ou interagi de façon significative avec -  deux ou plusieurs cultures au cours de ses années de formation (en savoir plus <Link to="https://globallygrounded.com/third-culture-kids/" external onClick={sendEvent(gaTags.about.button.cck)}>ici</Link>)</i></small></Paragraph>
               <SubTitle>Entre Diversité & Curiosité de l’être humain</SubTitle>
               <Paragraph>J’ai débuté ma carrière dans l’<b>accompagnement d’entreprises</b>, sur des sujets de transformation digital, sur des projets très variés et dans des environnements toujours challengeants & innovants - en agence, puis en conseil, pour finir en start-up /scale-up.</Paragraph>
-              <Paragraph>C’est en suivant cette envie intérieure forte, et fort du constat que nous sommes nombreux à accepter les status quo en limitant ainsi nos options de développement et de réalisation, que j’ai souhaité approfondir ma connaissance de la psychologie et du développement humain et que je suis maintenant <b>Coach certifiée</b> depuis Septembre 2020 (titre RNCP - reconnu par l'Etat - et ICF niveau PCC), avec près de <b>100 heures de pratique</b> à mon actif.</Paragraph>
+              <Paragraph>Passionnée par ce qui meut l’être humain et les rend si uniques, mes rôles de Manager ont renforcés mon envie d’accompagner les personnes dans leur <b>potentialisation</b>.<br/>C’est en suivant cette envie intérieure forte, et fort du constat que nous sommes nombreux à accepter les status quo en limitant ainsi nos options de développement et de réalisation, que j’ai souhaité approfondir ma connaissance de la psychologie et du développement humain. Je suis maintenant <b>Coach certifiée</b>* depuis Septembre 2020, avec près de <b>100 heures de pratique</b> à mon actif.<br/><small>(*titre RNCP - reconnu par l'Etat - et ICF niveau PCC)</small></Paragraph>
             </Card>
           </Grid.Item>
         </Grid>
@@ -90,10 +90,10 @@ export const About = () => {
             </Card>
           </Grid.Item>
         </Grid>
+        <Grid col="1">
+          <Grid.Item col="1" className={styles.cta}><Button to={contactPage.path} onClick={sendEvent(gaTags.about.button.contact)}>Contactez moi</Button></Grid.Item>
+        </Grid>
       </Section>
-      <Grid col="1">
-        <Grid.Item col="1" className={styles.cta}><Button to={contactPage.path} onClick={sendEvent(gaTags.about.button.contact)}>Contactez moi</Button></Grid.Item>
-      </Grid>
     </div>
   );
 };

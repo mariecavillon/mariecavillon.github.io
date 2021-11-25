@@ -1,6 +1,9 @@
 .PHONY: prepare
 prepare: prerequisite generate-ca self-signed-certificate install-nvm install-node-lts
 
+.PHONY: renew-certificate
+renew-certificate: generate-ca self-signed-certificate
+
 .PHONY: prerequisite
 prerequisite:
 	sudo apt install openssl
