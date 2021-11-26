@@ -3677,15 +3677,20 @@ var hooks_usePageNavigation = function usePageNavigation() {
   }, []);
   return [currentPage];
 };
-var hooks_useGa = function useGa() {
+var useGa = function useGa() {
   var browserWindow = typeof window !== 'undefined' ? window : undefined;
-  var gtag = browserWindow && browserWindow.gtag;
-  var sendEvent = Object(external_react_["useCallback"])(function (eventName, eventProperties) {
+
+  var gtag = function gtag() {
+    return browserWindow && browserWindow.gtag;
+  };
+
+  var sendEvent = function sendEvent(eventName, eventProperties) {
     return function () {
-      return eventName && gtag && gtag('event', eventName, eventProperties);
+      eventName && gtag()('event', eventName, eventProperties);
     };
-  }, [gtag]);
-  return [gtag, sendEvent];
+  };
+
+  return [gtag(), sendEvent];
 };
 // CONCATENATED MODULE: /home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/src/tags.js
 
@@ -3876,7 +3881,7 @@ var Header_Header = function Header(props) {
       _usePageNavigation2 = slicedToArray_default()(_usePageNavigation, 1),
       currentPage = _usePageNavigation2[0];
 
-  var _useGa = hooks_useGa(),
+  var _useGa = useGa(),
       _useGa2 = slicedToArray_default()(_useGa, 2),
       _ = _useGa2[0],
       sendEvent = _useGa2[1];
@@ -3952,7 +3957,7 @@ var Home_styles_default = /*#__PURE__*/__webpack_require__.n(Home_styles);
 
 
 var Home_Home = function Home() {
-  var _useGa = hooks_useGa(),
+  var _useGa = useGa(),
       _useGa2 = slicedToArray_default()(_useGa, 2),
       _ = _useGa2[0],
       sendEvent = _useGa2[1];
@@ -4160,7 +4165,7 @@ var Contact_Contact = function Contact() {
       displayAboutConditionVerified = _useState14[0],
       setDisplayAboutConditionVerified = _useState14[1];
 
-  var _useGa = hooks_useGa(),
+  var _useGa = useGa(),
       _useGa2 = slicedToArray_default()(_useGa, 2),
       _ = _useGa2[0],
       sendEvent = _useGa2[1];
@@ -4359,7 +4364,7 @@ var About_styles_default = /*#__PURE__*/__webpack_require__.n(About_styles);
 
 
 var About_About = function About() {
-  var _useGa = hooks_useGa(),
+  var _useGa = useGa(),
       _useGa2 = slicedToArray_default()(_useGa, 2),
       _ = _useGa2[0],
       sendEvent = _useGa2[1];
@@ -4425,7 +4430,7 @@ var Service_styles_default = /*#__PURE__*/__webpack_require__.n(Service_styles);
 
 
 var Service_Service = function Service() {
-  var _useGa = hooks_useGa(),
+  var _useGa = useGa(),
       _useGa2 = slicedToArray_default()(_useGa, 2),
       _ = _useGa2[0],
       sendEvent = _useGa2[1];
