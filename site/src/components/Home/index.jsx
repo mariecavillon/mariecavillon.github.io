@@ -63,9 +63,9 @@ export const Home = () => {
         <Hero grey>
           <Hero.Title>Vous souhaitez en savoir plus ?</Hero.Title>
           <Hero.Content horizontal>
-            <Button to={servicePage.path} onClick={sendEvent(gaTags.home.button.service)}>Mes services</Button>
-            <Button to={aboutPage.path} onClick={sendEvent(gaTags.home.button.about)}>Un peu de moi</Button>
-            <Button to={contactPage.path} onClick={sendEvent(gaTags.home.button.contact)}>Contactez moi</Button>
+            <Button to={servicePage.path} onClick={sendEvent(...gaTags.home.button.service)}>Mes services</Button>
+            <Button to={aboutPage.path} onClick={sendEvent(...gaTags.home.button.about)}>Un peu de moi</Button>
+            <Button to={contactPage.path} onClick={sendEvent(...gaTags.home.button.contact)}>Contactez moi</Button>
           </Hero.Content>
         </Hero>
       </Section>
