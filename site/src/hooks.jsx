@@ -38,7 +38,9 @@ export const useGa = () => {
   const gtag = () => browserWindow && browserWindow.gtag;
 
   const sendEvent = (eventName, eventProperties) => () => {
-    eventName && gtag()('event', eventName, eventProperties)
+    const ga = gtag();
+
+    eventName && ga && ga('event', eventName, eventProperties);
   };
 
   return [gtag(), sendEvent];

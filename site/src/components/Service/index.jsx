@@ -25,7 +25,7 @@ export const Service = () => {
               <Modal>
                 <Modal.Consumer>
                   {({ open }) => (
-                    <Button inverse onClick={composeCb([open, sendEvent(gaTags.service.button.modal.explorateur.description)])}>Qui sont-ils ?</Button>
+                    <Button inverse onClick={composeCb([open, sendEvent(...gaTags.service.button.modal.explorateur.description)])}>Qui sont-ils ?</Button>
                   )}
                 </Modal.Consumer>
                 <Modal.Content>
@@ -38,7 +38,7 @@ export const Service = () => {
               <Modal>
                 <Modal.Consumer>
                   {({ open }) => (
-                    <Button onClick={composeCb([open, sendEvent(gaTags.service.button.modal.explorateur.theme)])}>Thématiques</Button>
+                    <Button onClick={composeCb([open, sendEvent(...gaTags.service.button.modal.explorateur.theme)])}>Thématiques</Button>
                   )}
                 </Modal.Consumer>
                 <Modal.Content>
@@ -50,7 +50,7 @@ export const Service = () => {
                     <List.Item><SubTitle small>Épanouissement pro</SubTitle>Définition et/ou clarification  de next steps professionnelles</List.Item>
                     <List.Item><SubTitle small>Transition de vie</SubTitle>Accompagnement dans une nouvelle phase de vie (nouvellement parent, confinement, licenciement...)</List.Item>
                   </List>
-                  <div className={styles.containerCta}><Button to={contactPage.path} onClick={sendEvent(gaTags.service.button.modal.explorateur.contact)}>Contactez moi</Button></div>
+                  <div className={styles.containerCta}><Button to={contactPage.path} onClick={sendEvent(...gaTags.service.button.modal.explorateur.contact)}>Contactez moi</Button></div>
                 </Modal.Content>
               </Modal>
             </div>
@@ -61,7 +61,7 @@ export const Service = () => {
               <Modal>
                 <Modal.Consumer>
                   {({ open }) => (
-                    <Button inverse onClick={composeCb([open, sendEvent(gaTags.service.button.modal.nomad.description)])}>Qui sont-ils ?</Button>
+                    <Button inverse onClick={composeCb([open, sendEvent(...gaTags.service.button.modal.nomad.description)])}>Qui sont-ils ?</Button>
                   )}
                 </Modal.Consumer>
                 <Modal.Content>
@@ -69,13 +69,13 @@ export const Service = () => {
                   <Paragraph className={styles.left}><b>Expats</b> ou <b>A-CCK</b>*,  vous vous caractérisez par une <b>vie hautement mobile</b>.</Paragraph>
                   <Paragraph className={styles.left}>Le <b>changement</b> et la <b>nouveauté</b> font partie intégrante de votre quotidien. C’est excitant mais ça comporte aussi son <b>lot de challenge: appréhender la dimension émotionnelle de la complexité culturelle</b> (intégration, adaptation constante, recherche de stabilité & de repère, chamboulement identitaire…)</Paragraph>
                   <Paragraph className={styles.left}>Autant de sujet que nous pouvons aborder ensemble pour que vous puissiez <b>profiter pleinement</b> de ces expériences multiculturelles et transformantes!</Paragraph>
-                  <Paragraph className={styles.left}><small><i>* CCK (Cross Culture Kids): Enfant ayant vécu au sein de - ou interagi de façon significative avec -  deux ou plusieurs cultures au cours de ses années de formation <i>(en savoir plus <Link to="https://globallygrounded.com/third-culture-kids/" external onClick={sendEvent(gaTags.service.button.modal.nomad.cck)}>ici</Link>)</i><br/>* A-CCK: CCK devenu adulte</i></small></Paragraph>
+                  <Paragraph className={styles.left}><small><i>* CCK (Cross Culture Kids): Enfant ayant vécu au sein de - ou interagi de façon significative avec -  deux ou plusieurs cultures au cours de ses années de formation <i>(en savoir plus <Link to="https://globallygrounded.com/third-culture-kids/" external onClick={sendEvent(...gaTags.service.button.modal.nomad.cck)}>ici</Link>)</i><br/>* A-CCK: CCK devenu adulte</i></small></Paragraph>
                 </Modal.Content>
               </Modal>
               <Modal>
                 <Modal.Consumer>
                   {({ open }) => (
-                    <Button onClick={composeCb([open, sendEvent(gaTags.service.button.modal.nomad.theme)])}>Thématiques</Button>
+                    <Button onClick={composeCb([open, sendEvent(...gaTags.service.button.modal.nomad.theme)])}>Thématiques</Button>
                   )}
                 </Modal.Consumer>
                 <Modal.Content>
@@ -86,7 +86,7 @@ export const Service = () => {
                     <List.Item><SubTitle small>Départ & Rapatriation</SubTitle>Organisation du départ, tristesse &/ou deuil lié aux séparations humaines, à la culture...</List.Item>
                     <List.Item><SubTitle small>Relations</SubTitle>Communication interculturelle et création de synergies (pro &/ou perso)</List.Item>
                   </List>
-                  <div className={styles.containerCta}><Button to={contactPage.path} onClikc={sendEvent(gaTags.service.button.modal.nomad.contact)}>Contactez moi</Button></div>
+                  <div className={styles.containerCta}><Button to={contactPage.path} onClikc={sendEvent(...gaTags.service.button.modal.nomad.contact)}>Contactez moi</Button></div>
                 </Modal.Content>
               </Modal>
             </div>
@@ -207,7 +207,7 @@ export const Service = () => {
       <Section margin>
         <Hero grey>
           <Hero.Title>Curieux.se d’échanger?</Hero.Title>
-          <Hero.Content><Button to={contactPage.path} onClick={sendEvent(gaTags.service.button.banner.contact)}>Contactez moi</Button></Hero.Content>
+          <Hero.Content><Button to={contactPage.path} onClick={sendEvent(...gaTags.service.button.banner.contact)}>Contactez moi</Button></Hero.Content>
         </Hero>
       </Section>
       <Section bgLeft>
@@ -253,8 +253,8 @@ export const Service = () => {
               <Paragraph>Quelle pelote d'expérience choisirez vous pour initier votre voyage?<br/>Sur quel fil de vos ressources tirerez vous pour tisser votre Patchwork?</Paragraph>
               <Paragraph>Découvrons le ensemble, <b>Dessinez moi votre Patchwork!</b></Paragraph>
               <div className={styles.cta}>
-                <Button to={contactPage.path} onClick={sendEvent(gaTags.service.button.contact)}>Contactez moi</Button>
-                <Button to={aboutPage.path} onClick={sendEvent(gaTags.service.button.about)}>Un peu de moi</Button>
+                <Button to={contactPage.path} onClick={sendEvent(...gaTags.service.button.contact)}>Contactez moi</Button>
+                <Button to={aboutPage.path} onClick={sendEvent(...gaTags.service.button.about)}>Un peu de moi</Button>
               </div>
             </Card>
           </Grid.Item>
