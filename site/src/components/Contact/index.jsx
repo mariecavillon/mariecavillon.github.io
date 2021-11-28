@@ -138,7 +138,7 @@ export const Contact = () => {
           throw Error('error');
         }
 
-        sendEvent(...gaTags.contact.form.sent);
+        sendEvent(...gaTags.contact.form.sent)();
         setFormSent(true);
         setSubmitting(false);
       } catch (e) {
@@ -154,7 +154,7 @@ export const Contact = () => {
     e.preventDefault();
 
     setSubmitting(true);
-    sendEvent(...gaTags.contact.form.started);
+    sendEvent(...gaTags.contact.form.started)();
 
     const newInputList = inputList.map(i => ({
       ...i,
