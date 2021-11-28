@@ -34,6 +34,12 @@ export const tags = {
         { eventCategory: 'ContactInfo', eventLabel: 'BannerHP', eventAction: 'click'},
       ],
     },
+    link: {
+      about: [
+        'Click_UnPeuDeMoi_HP',
+        { eventCategory: 'Coach', eventLabel: 'ParagraphHP', eventAction: 'click'},
+      ],
+    },
   },
   service: {
     button: {
