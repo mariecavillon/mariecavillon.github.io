@@ -8,6 +8,7 @@ import gaTags from '~tags';
 import { composeCb } from '~utils';
 
 import styles from './styles.scss';
+import { quotes } from './quotes';
 
 export const Service = () => {
   const [_, sendEvent] = useGa();
@@ -234,14 +235,9 @@ export const Service = () => {
         <Hero>
           <Hero.Title>Ce qu’il.elle.s en ont pensé</Hero.Title>
           <Slider>
-            <Slider.Item className={styles.quote}>"Ta bienveillance, la pertinence de ton questionnement, ton état d'esprit positif, ton esprit de synthèse et un calme rassurant."</Slider.Item>
-            <Slider.Item className={styles.quote}>"Merci Marie. Gardez votre sérénité et votre simplicité, votre ouverture."</Slider.Item>
-            <Slider.Item className={styles.quote}>"Ce que j’ai le plus apprécié:<br/>de m’avoir poussé dans mes retranchements!"</Slider.Item>
-            <Slider.Item className={styles.quote}>"Les séances de coaching m'ont permis plus de confiance en moi pour atteindre de mes objectifs"</Slider.Item>
-            <Slider.Item className={styles.quote}>"Prendre le temps de réfléchir sur moi, casser mes croyances et mes peurs, faire de l’introspection, me connaître mieux…"</Slider.Item>
-            <Slider.Item className={styles.quote}>"Ce que j’ai le plus apprécie: Les questionnements qui déclenchent des réflexions indispensables ou débloquent certains points de stagnation, la mesure de l'évolution de l'état d'esprit avec le système des échelles, le travail sur les valeurs"</Slider.Item>
-            <Slider.Item className={styles.quote}>"Cet accompagnement m'a permis de trouver des ressources et des solutions internes et surtout de passer outre mes peurs et mes projections négatives pour faire des choix avec lesquels je me sens alignée."</Slider.Item>
-            <Slider.Item className={styles.quote}>"Facilité à mettre à l'aise et à reformuler tout en me mettant dans mes propres contradictions ou croyances, capacité à créer du lien, à rassurer. Pas que écouter mais aussi participer"</Slider.Item>
+            {quotes.map((Quote, i) => (
+              <Slider.Item key={`quote${i}`} className={styles.quote}><Quote/></Slider.Item>
+            ))}
           </Slider>
         </Hero>
       </Section>

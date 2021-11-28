@@ -19,63 +19,33 @@
   flex-direction: column;
 }
 
-.8 .item {
-  animation: slide8 80s ease-in-out infinite;
-}
-
 @media (min-width: $layout-desktop) {
   .item {
     padding: 0;
   }
 }
+@for $i from 1 through 15 {
+  .#{$i} .item {
+    animation: slide#{$i} $i * 10s ease-in-out infinite;
+  }
 
-@keyframes slide8 {
-  10.5% {
-    transform: translateX(0);
-  }
-  12.5% {
-    transform: translateX(-100%);
-  }
-  23% {
-    transform: translateX(-100%);
-  }
-  25% {
-    transform: translateX(-200%);
-  }
-  35.5% {
-    transform: translateX(-200%);
-  }
-  37.5% {
-    transform: translateX(-300%);
-  }
-  48% {
-    transform: translateX(-300%);
-  }
-  50% {
-    transform: translateX(-400%);
-  }
-  60.5% {
-    transform: translateX(-400%);
-  }
-  62.5% {
-    transform: translateX(-500%);
-  }
-  73% {
-    transform: translateX(-500%);
-  }
-  75% {
-    transform: translateX(-600%);
-  }
-  85.5% {
-    transform: translateX(-600%);
-  }
-  87.5% {
-    transform: translateX(-700%);
-  }
-  98% {
-    transform: translateX(-700%);
-  }
-  100% {
-    transform: translateX(0);
+  @keyframes slide#{$i} {
+    $step: (100 / $i);
+
+    @for $j from 1 to $i {
+      #{($step * $j) - 2}% {
+        transform: translateX(-1% * (($j - 1) * 100));
+      }
+      #{($step * $j)}% {
+        transform: translateX(-1% *($j * 100));
+      }
+    }
+
+      #{(($step * $i) - 2)}% {
+        transform: translateX(-1% * (($i - 1) * 100));
+      }
+      #{($step * $i)}% {
+        transform: translateX(0);
+      }
   }
 }

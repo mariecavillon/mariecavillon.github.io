@@ -138,9 +138,9 @@ export const Contact = () => {
           throw Error('error');
         }
 
+        sendEvent(...gaTags.contact.form.sent);
         setFormSent(true);
         setSubmitting(false);
-        sendEvent(...gaTags.contact.form.sent);
       } catch (e) {
         setFormSubmissionError(true);
         setSubmitting(false);
