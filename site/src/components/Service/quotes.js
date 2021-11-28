@@ -12,7 +12,7 @@ export const quotes = [
   () => (<>"- Des solutions concrètes à mes questions => plan A, B, C<br/>- Les exos pertinents et intéressants qui sont dans la continuité de nos échanges<br/>- Pas de jugement (ou en tout cas pas ressenti :p)<br/>- La flexibilité sur les sujets à aborder"</>),
   () => (<>"Ta bienveillance, la pertinence de ton questionnement, ton état d'esprit positif, ton esprit de synthèse et un calme rassurant."</>),
   () => (<>"Facilité à mettre à laiSe et à reformuler tout en me mettant dans mes propres contradictions ou croyances, capacité à créer du lien, à rassurer.<br/>Pas que écouter mais aussi participer"</>),
-  () => (<>"Ta bienveillance, ton sens de l'écoute, ton objectivité (hyper important de ne pas se sentir juger pour pouvoir tout exprimer), ta flexibilité, on sent que tu as des connaissances quelque soit le sujet, et tu as de bonnes réflexions qui m'ont fait réfléchir. Le fait que tu partages aussi tes expériences perso, ça \"humanise\" et on peut s'identifier"</>),
+  () => (<>"Ta bienveillance, ton sens de l'écoute, ton objectivité (hyper important de ne pas se sentir juger pour pouvoir tout exprimer), ta flexibilité, on sent que tu as des connaissances quelque soit le sujet, et tu as de bonnes réflexions qui m'ont fait réfléchir. Le fait que tu partages aussi tes expériences perso, ça "humanise" et on peut s'identifier"</>),
   () => (<>"La méthode de consolidation de la réflexion, en rappelant et en résumant chaque étape des discussions."</>),
   () => (<>"J'ai trouvé les outils et techniques mis en place efficaces"</>),
 ];
