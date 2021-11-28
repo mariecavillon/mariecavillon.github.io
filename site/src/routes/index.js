@@ -21,11 +21,17 @@ export const homePage = {
   template: 'src/pages/Home',
 };
 
+export const comingSoon = {
+  path: '/en',
+  template: 'src/pages/English',
+};
+
 export const routes = [
   homePage,
   servicePage,
   aboutPage,
   contactPage,
+  comingSoon,
   {
     path: '404',
     template: 'src/pages/404',

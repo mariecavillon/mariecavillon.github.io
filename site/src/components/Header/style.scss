@@ -1,6 +1,7 @@
 @import '~variables';
 
 $header-height: 80px;
+$iconWidth: 48px;
 
 .container {
   position: fixed;
@@ -15,10 +16,10 @@ $header-height: 80px;
 
 .header {
   display: grid;
-  grid-template-columns: 48px auto 48px;
+  grid-template-columns: $iconWidth auto $iconWidth;
   grid-template-rows: $header-height auto;
   grid-template-areas:
-        "icon logo right"
+        "icon logo lang"
         "nav nav nav";
   justify-items: stretch;
   align-items: center;
@@ -92,11 +93,53 @@ $header-height: 80px;
   align-items: center;
 }
 
+.langMenu {
+  grid-area: lang;
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+  align-self: center;
+  justify-self: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover .langNav {
+    max-height: 200%;
+  }
+}
+
+.langNav {
+  position: fixed;
+  top: $header-height - ($iconWidth / 2);
+  right: 5px;
+  display: flex;
+  max-height: 0;
+  transition: max-height 0.3s ease-in;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.lang {
+  width: $iconWidth;
+  border: 1px solid $color-grey;
+  padding: 5px; 
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  background-color: $color-white;
+
+  &:last-of-type {
+    border-top: 0;
+  }
+}
+
 @media (min-width: $layout-desktop) {
 
   .header {
     grid-template-columns: auto 1fr;
-    grid-template-areas: "logo nav";
+    grid-template-areas: "logo nav lang";
     overflow: initial;
     max-width: $content-wrapper;
     margin: 0 auto;
@@ -114,6 +157,10 @@ $header-height: 80px;
     max-height: $header-height;
     justify-self: right;
     margin-right: $margin-lg;
+  }
+
+  .langNav {
+    right: calc(((100% - #{$content-wrapper}) / 2) - (#{$iconWidth} / 4));
   }
 
   .navItem {
