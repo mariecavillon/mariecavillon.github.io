@@ -1,8 +1,8 @@
 import React, { useCallback, useState, useEffect } from 'react';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faTimes, faGlobe } from '@fortawesome/free-solid-svg-icons';
 import cn from 'classnames';
 
-import allRoutes from '~routes';
+import allRoutes, { homePage, comingSoon } from '~routes';
 import { Link, Icon } from '~atoms';
 import { usePageNavigation, useGa } from '~hooks';
 import gaTags from '~tags';
@@ -51,6 +51,13 @@ const Header = (props) => {
         </nav>
         <span className={styles.menuIcon} onClick={toggle}>
           <Icon icon={active ? faTimes : faBars} />
+        </span>
+        <span className={styles.langMenu}>
+          <Icon icon={faGlobe} />
+          <span className={styles.langNav}>
+            <Link to={homePage.path} className={styles.lang}>FR</Link>
+            <Link to={comingSoon.path} className={styles.lang}>EN</Link>
+          </span>
         </span>
       </header>
     </div>
