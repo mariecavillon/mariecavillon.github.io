@@ -87,7 +87,7 @@ export const Service = () => {
                     <List.Item><SubTitle small>Départ & Rapatriation</SubTitle>Organisation du départ, tristesse &/ou deuil lié aux séparations humaines, à la culture...</List.Item>
                     <List.Item><SubTitle small>Relations</SubTitle>Communication interculturelle et création de synergies (pro &/ou perso)</List.Item>
                   </List>
-                  <div className={styles.containerCta}><Button to={contactPage.path} onClikc={sendEvent(...gaTags.service.button.modal.nomad.contact)}>Contactez moi</Button></div>
+                  <div className={styles.containerCta}><Button to={contactPage.path} onClick={sendEvent(...gaTags.service.button.modal.nomad.contact)}>Contactez moi</Button></div>
                 </Modal.Content>
               </Modal>
             </div>
