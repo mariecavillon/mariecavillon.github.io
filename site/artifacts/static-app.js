@@ -4695,7 +4695,7 @@ var Service_Service = function Service() {
     className: Service_styles_default.a.containerCta
   }, /*#__PURE__*/external_react_default.a.createElement(atoms["f" /* Button */], {
     to: routes["c" /* contactPage */].path,
-    onClikc: sendEvent.apply(void 0, toConsumableArray_default()(src_tags.service.button.modal.nomad.contact))
+    onClick: sendEvent.apply(void 0, toConsumableArray_default()(src_tags.service.button.modal.nomad.contact))
   }, "Contactez moi")))))))), /*#__PURE__*/external_react_default.a.createElement(atoms["t" /* Section */], null, /*#__PURE__*/external_react_default.a.createElement(atoms["y" /* Title */], {
     centered: true
   }, "Ce que je vous propose")), /*#__PURE__*/external_react_default.a.createElement(atoms["t" /* Section */], {
