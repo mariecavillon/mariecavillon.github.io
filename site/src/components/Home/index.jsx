@@ -18,7 +18,7 @@ export const Home = () => {
           <div className={styles.titleText}>
             <h1 className={styles.title}>
               <span className={styles.titleBig}>Le Coaching Digital Trilingue</span>
-              <span>des Explorateurs de Sens & Global Nomads</span>
+              <span>des Scale-Ups, Explorateurs de Sens & Global Nomads</span>
             </h1>
           </div>
         </div>
@@ -35,6 +35,7 @@ export const Home = () => {
               <Title noMargin>Permettre à chacun de pouvoir influencer sa vie</Title>
                 <Paragraph className={styles.paragraphWithoutBottomMargin}>Libérez votre conscience de vous et votre pouvoir d'agir</Paragraph>
                 <List>
+                  <List.Item>Mieux connaître ses <b>motivateurs clefs</b> et <b>comportements</b></List.Item>
                   <List.Item>Développer sa capacité à <b>compter sur soi</b></List.Item>
                   <List.Item>Prendre conscience de son <b>pouvoir d'action</b></List.Item>
                   <List.Item>Découvrir ses <b>propres forces</b> dissimulées dans ses défauts ou ses symptômes</List.Item>

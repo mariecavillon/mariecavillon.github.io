@@ -43,3 +43,10 @@ $option-height: ($input-height + $padding);
 .show {
   max-height: 3 * $option-height;
 }
+
+@for $i from 1 through 5 {
+  .show#{$i} {
+    max-height: $i * $option-height;
+  }
+}
+

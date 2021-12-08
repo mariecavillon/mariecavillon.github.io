@@ -20,8 +20,44 @@ export const Service = () => {
           <Title centered className={styles.marginTop}>A qui je m'adresse ?</Title>
         </Grid>
         <Grid col="4">
+          <Grid.Item col="0110" className={styles.container}>
+            <SubTitle><span className={styles.containerSpan}>Les</span>Scale-Ups<span className={styles.containerSpanBottom}>(Entreprises)</span></SubTitle>
+            <div className={styles.containerCta}>
+              <Modal>
+                <Modal.Consumer>
+                  {({ open }) => (
+                    <Button inverse onClick={composeCb([open, sendEvent(...gaTags.service.button.modal.scaleup.description)])}>Qui sont-ils ?</Button>
+                  )}
+                </Modal.Consumer>
+                <Modal.Content>
+                  <SubTitle><span className={styles.containerSpan}>Les</span>Scale-Ups</SubTitle>
+                  <Paragraph className={styles.left}>Vous avez de la traction, votre offre commence à prendre et vous souhaitez maintenant <b>changer d'échelle</b> en <b>accélerant votre croissance</b>, et ce éventuellement à l'<b>international</b></Paragraph>
+                  <Paragraph className={styles.left}>Le <b>capital humain</b>, est un enjeu essentiel pour vous dans cette phase critique de développement où il faut <b>se démultiplier sans perdre son ADN</b>: structuration et sécurisation de votre croissance, développement et recrutement de talents, besoin de renforcement du leadership dans des équipes et <b>environnements extrémement variés et souvent multiculturels</b> (non pas seulement démographique, mais en terme d'idée et de perspectives).</Paragraph>
+                  <Paragraph className={styles.left}>Adressons les ensemble.</Paragraph>
+                </Modal.Content>
+              </Modal>
+              <Modal>
+                <Modal.Consumer>
+                  {({ open }) => (
+                    <Button onClick={composeCb([open, sendEvent(...gaTags.service.button.modal.scaleup.theme)])}>Thématiques</Button>
+                  )}
+                </Modal.Consumer>
+                <Modal.Content>
+                  <SubTitle><span className={styles.containerSpan}>Les</span>Scale-Ups</SubTitle>
+                  <List className={styles.left}>
+                    <List.Item><SubTitle small>Organisation des méthodes de travail</SubTitle>implémentation et suivi d'OKR, clarification des rôles et responsabilités dans des organisations souvent transverses et matricielles, gestion et efficacité des process, réunions et modes de communication (agenda, rôles partagés, modalités de décisions, outils de communication...), facilitation au Co-dev<br/>&nbsp;</List.Item>
+                    <List.Item><SubTitle small>Accompagnement continue des talents et middle management</SubTitle>mieux se connaître, identifier ses axes de développement et construire des plans d'actions, communiquer efficacement, prendre sa place en restant authentique, fonctionner efficacement et en confiance avec ses équipes - en présentiel ou en distanciel<br/>&nbsp;</List.Item>
+                    <List.Item><SubTitle small>Management muticulturel & diversite</SubTitle>Internationalisation des équipes et/ou gestion d'équipes matricielles: être conscient de ses orientations cross-culturelles, normes et valeurs, découvrir comment les élargir, apprendre à idenfiier celle des autres et efficacement réduire les differences culturelles (communication, modes de travail...)</List.Item>
+                  </List>
+                  <div className={styles.containerCta}><Button to={contactPage.path} onClick={sendEvent(...gaTags.service.button.modal.scaleup.contact)}>Contactez moi</Button></div>
+                </Modal.Content>
+              </Modal>
+            </div>
+          </Grid.Item>
+        </Grid>
+        <Grid col="4">
           <Grid.Item col="1100" className={styles.container}>
-            <SubTitle><span className={styles.containerSpan}>Les</span>Explorateurs de Sens</SubTitle>
+            <SubTitle><span className={styles.containerSpan}>Les</span>Explorateurs de Sens<span className={styles.containerSpanBottom}>(Particuliers)</span></SubTitle>
             <div className={styles.containerCta}>
               <Modal>
                 <Modal.Consumer>
@@ -43,9 +79,9 @@ export const Service = () => {
                   )}
                 </Modal.Consumer>
                 <Modal.Content>
-                  <SubTitle><span className={styles.containerSpan}>Les</span>Xplorateurs de Sens</SubTitle>
+                  <SubTitle><span className={styles.containerSpan}>Les</span>Explorateurs de Sens</SubTitle>
                   <List className={styles.left}>
-                    <List.Item><SubTitle small>Équilibre</SubTitle>Equilibre vie pro/perso</List.Item>
+                    <List.Item><SubTitle small>Équilibre de vie</SubTitle>Equilibre vie pro/perso</List.Item>
                     <List.Item><SubTitle small>Nouveau projet de vie</SubTitle>Définition et/ou mise en place d'un nouveau projet de vie</List.Item>
                     <List.Item><SubTitle small>Relations</SubTitle>Communication plus authentique et connectée à soi et aux autres</List.Item>
                     <List.Item><SubTitle small>Épanouissement pro</SubTitle>Définition et/ou clarification  de next steps professionnelles</List.Item>
@@ -57,7 +93,7 @@ export const Service = () => {
             </div>
           </Grid.Item>
           <Grid.Item col="0011" className={styles.container}>
-            <SubTitle><span className={styles.containerSpan}>Les</span>Global Nomads</SubTitle>
+            <SubTitle><span className={styles.containerSpan}>Les</span>Global Nomads<span className={styles.containerSpanBottom}>(Particuliers)</span></SubTitle>
             <div className={styles.containerCta}>
               <Modal>
                 <Modal.Consumer>
@@ -85,7 +121,7 @@ export const Service = () => {
                     <List.Item><SubTitle small>Arrivée & Intégration</SubTitle>Appropriation des codes culturels, organisation de sa nouvelle vie...</List.Item>
                     <List.Item><SubTitle small>Adaptation & Identité</SubTitle>Choc culturel, questions identitaires, perte de repères, sentiment d’appartenance...</List.Item>
                     <List.Item><SubTitle small>Départ & Rapatriation</SubTitle>Organisation du départ, tristesse &/ou deuil lié aux séparations humaines, à la culture...</List.Item>
-                    <List.Item><SubTitle small>Relations</SubTitle>Communication interculturelle et création de synergies (pro &/ou perso)</List.Item>
+                    <List.Item><SubTitle small>Relations interculturelles</SubTitle>Communication interculturelle et création de synergies (pro &/ou perso)</List.Item>
                   </List>
                   <div className={styles.containerCta}><Button to={contactPage.path} onClick={sendEvent(...gaTags.service.button.modal.nomad.contact)}>Contactez moi</Button></div>
                 </Modal.Content>
@@ -159,7 +195,7 @@ export const Service = () => {
                 </Dropdown.Trigger>
                 <Dropdown.Content>
                   <List>
-                    <List.Item>Un coaching pour Explorateurs de Sens et Global Nomads <b>PAR</b> une Exploratrice de Sens et Global Nomad. (En savoir plus sur moi <Link to={aboutPage.path}>ici</Link>)<br/><br/>Ainsi, parce que je connais ces enjeux et la complexité de ces environnements, parce que j’ai traversé les <b>difficultés</b> qui vont avec, j’ai choisi d’apporter ce <b>soutien</b> à ceux qui traverse les mêmes épreuves.</List.Item>
+                    <List.Item>Un coaching pour Explorateurs de Sens, Global Nomads et Scale-Ups, <b>PAR</b> une Exploratrice de Sens et Global Nomad ayant travaillé en Scale-up. (En savoir plus sur moi <Link to={aboutPage.path}>ici</Link>)<br/><br/>Ainsi, parce que je connais ces enjeux et la complexité de ces environnements, parce que j’ai traversé les <b>difficultés</b> qui vont avec, j’ai choisi d’apporter ce <b>soutien</b> à ceux qui traverse les mêmes épreuves.</List.Item>
                   </List>
                 </Dropdown.Content>
               </Dropdown>
