@@ -83,7 +83,7 @@ const inputs = [
     type: 'select',
     name: '$about',
     label: 'Vous êtes plutôt',
-    options: ['Xplorateurs de Sens', 'Global Nomads', 'Autres'],
+    options: ['Scale-Up', 'Xplorateurs de Sens', 'Global Nomads', 'Autres'],
   },
   {
     type: 'textarea',

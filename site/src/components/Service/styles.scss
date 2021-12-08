@@ -88,9 +88,16 @@ $title-bg: rgba(255,255,255,.7);
 
 .containerSpan {
   color: $color-grey;
-  font-size: 1rem;
+  font-size: 1.5rem;
   display: block;
   padding-top: $padding-lg;
+}
+
+.containerSpanBottom {
+  color: $color-green;
+  font-size: 1rem;
+  display: block;
+  font-weight: 500;
 }
 
 .containerCta {

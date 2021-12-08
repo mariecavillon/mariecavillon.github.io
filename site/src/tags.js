@@ -44,6 +44,20 @@ export const tags = {
   service: {
     button: {
       modal: {
+        scaleup: {
+          description: [
+            'Click_DescrScaleUps_MeServices',
+            { eventCategory: 'OffreScaleUps', eventLabel: 'DescrScaleUps_MesServices', eventAction: 'click'},
+          ],
+          theme: [
+            'Click_ThemScaleUps_MesServices',
+            { eventCategory: 'OffreScaleUps', eventLabel: 'ThemScaleUps_MesServices', eventAction: 'click'},
+          ],
+          contact: [
+            'Click_ContactezMoiScaleUps_MesServices',
+            { eventCategory: 'ContactInfo', eventLabel: 'ThemScaleUps_MesServices', eventAction: 'click'},
+          ],
+        },
         explorateur: {
           description: [
             'Click_DescrExplo_MesServices',

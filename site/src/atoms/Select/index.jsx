@@ -81,7 +81,7 @@ export const Select = ({ className, name, label, options, helperText, required, 
     <div ref={container} className={cn(styles.container, className)} data-status={touched}>
       <div className={cn(styles.subContainer, { [styles.valid] : valid, [styles.invalid] : invalid })}>
         <div ref={selectInput} className={styles.select} onClick={toggle} data-value={value}>{value}</div>
-        <div className={cn(styles.options, { [styles.show]: showOptions })}>
+        <div className={cn(styles.options, { [styles.show]: showOptions, [styles[`show${options.length}`]]: showOptions })}>
           {options.map((o, i) => (<div key={i} className={styles.option} data-value={o} onClick={onChange}>{o}</div>))}
         </div>
         <input name={name} value={value} type="hidden" />
