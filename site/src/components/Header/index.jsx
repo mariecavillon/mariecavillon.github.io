@@ -31,7 +31,7 @@ const Header = (props) => {
         <span className={styles.logo}>
           <Logo cb={sendEvent(...gaTags.menu['/'])}/>
         </span>
-        <nav className={cn(styles.nav, { [styles[routes.length]]: active })}>
+        <nav className={cn(styles.nav, { [styles[`nav${routes.length}`]]: active })}>
           <ul>
             {routes.map((route, i) => (
               <li className={cn(styles.navItem, { [styles.active]: route.path === currentPage })} key={`${route.path}${i}`} onClick={hide}>

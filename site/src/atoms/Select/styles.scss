@@ -26,7 +26,7 @@ $option-height: ($input-height + $padding);
 .option {
   cursor: pointer;
   border-bottom: 1px solid $color-grey;
-  padding: $padding / 2;
+  padding: calc($padding / 2);
   background-color: $color-white;
 
   &:last-of-type {

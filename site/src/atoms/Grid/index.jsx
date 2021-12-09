@@ -5,7 +5,7 @@ import styles from './styles.scss';
 
 export const Grid = ({className, children, col}) => (
   <div className={styles.grid}>
-    <div className={cn(className, styles.content, { [styles[col]]: true })}>
+    <div className={cn(className, styles.content, { [styles[`grid${col}`]]: true })}>
       {children}
     </div>
   </div>
