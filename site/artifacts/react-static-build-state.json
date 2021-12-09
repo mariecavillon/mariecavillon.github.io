@@ -13,12 +13,12 @@
   "preloadPollInterval": 300,
   "productionSourceMaps": false,
   "silent": false,
-  "entry": "/home/x_x/workspaces/marie/site/src/index.jsx",
+  "entry": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/src/index.jsx",
   "siteRoot": "https://patchwork-s.com",
   "basePath": "",
   "plugins": [
     [
-      "/home/x_x/workspaces/marie/site/node_modules/react-static-plugin-sass/node.api.js",
+      "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/node_modules/react-static-plugin-sass/node.api.js",
       {
         "cssLoaderOptions": {
           "modules": true,
@@ -26,10 +26,10 @@
         }
       }
     ],
-    "/home/x_x/workspaces/marie/site/node_modules/react-static-plugin-css-modules/node.api.js",
-    "/home/x_x/workspaces/marie/site/node_modules/react-static-plugin-reach-router/browser.api.js",
-    "/home/x_x/workspaces/marie/site/node_modules/react-static-plugin-sitemap/dist/node.api.js",
-    "/home/x_x/workspaces/marie/site"
+    "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/node_modules/react-static-plugin-css-modules/node.api.js",
+    "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site"
   ],
   "devServer": {
     "host": "localhost",
@@ -39,19 +39,19 @@
     "sockPort": "443"
   },
   "paths": {
-    "ROOT": "/home/x_x/workspaces/marie/site",
-    "SRC": "/home/x_x/workspaces/marie/site/src",
-    "DIST": "/home/x_x/workspaces/marie/site/dist",
-    "ASSETS": "/home/x_x/workspaces/marie/site/dist",
-    "PLUGINS": "/home/x_x/workspaces/marie/site/plugins",
-    "TEMP": "/home/x_x/workspaces/marie/site/tmp",
-    "ARTIFACTS": "/home/x_x/workspaces/marie/site/artifacts",
-    "PUBLIC": "/home/x_x/workspaces/marie/site/public",
-    "NODE_MODULES": "/home/x_x/workspaces/marie/site/node_modules",
-    "EXCLUDE_MODULES": "/home/x_x/workspaces/marie/site/node_modules",
-    "PACKAGE": "/home/x_x/workspaces/marie/site/package.json",
-    "HTML_TEMPLATE": "/home/x_x/workspaces/marie/site/dist/index.html",
-    "STATIC_DATA": "/home/x_x/workspaces/marie/site/dist/staticData"
+    "ROOT": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site",
+    "SRC": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/src",
+    "DIST": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/dist",
+    "ASSETS": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/dist",
+    "PLUGINS": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/plugins",
+    "TEMP": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/tmp",
+    "ARTIFACTS": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/artifacts",
+    "PUBLIC": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/public",
+    "NODE_MODULES": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/node_modules",
+    "EXCLUDE_MODULES": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/node_modules",
+    "PACKAGE": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/package.json",
+    "HTML_TEMPLATE": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/dist/index.html",
+    "STATIC_DATA": "/home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/dist/staticData"
   },
   "publicPath": "https://patchwork-s.com/",
   "assetsPath": "",
