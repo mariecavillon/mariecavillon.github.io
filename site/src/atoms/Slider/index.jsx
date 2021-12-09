@@ -37,7 +37,7 @@ export const Slider = ({ children }) => {
     <div className={styles.slider}>
       <div className={styles.upper}>
         <div className={styles.prev} onClick={controls.previous}><Icon icon={faChevronLeft} /></div>
-        <div className={cn(styles.wrapper, styles[activeSlide + 1])}>
+        <div className={cn(styles.wrapper, styles[`slide${activeSlide + 1}`])}>
           {children}
         </div>
         <div className={styles.next} onClick={controls.next}><Icon icon={faChevronRight} /></div>

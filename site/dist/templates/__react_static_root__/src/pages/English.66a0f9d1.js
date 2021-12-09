@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{121:function(n,e,a){"use strict";a.r(e);var o=a(0),c=a.n(o),s=a(11),t=a(1),i=a(194),r=a.n(i);e.default=function(){return c.a.createElement("div",{className:r.a.wrapper},c.a.createElement(t.k,{icon:s.k,className:r.a.comingSoonIcon}),c.a.createElement(t.y,null,"English version coming soon!"))}}}]);

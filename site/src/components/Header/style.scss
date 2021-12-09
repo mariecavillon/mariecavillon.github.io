@@ -36,16 +36,10 @@ $iconWidth: 48px;
   display: block;
 }
 
-.1 {
-  max-height: $header-height; 
-}
-
-.2 {
-  max-height: 2 * $header-height;
-}
-
-.3 {
-  max-height: 3 * $header-height;
+@for $i from 1 through 5 {
+  .nav#{$i} {
+    max-height: $i * $header-height; 
+  }
 }
 
 .navItem {
@@ -112,7 +106,7 @@ $iconWidth: 48px;
 
 .langNav {
   position: fixed;
-  top: $header-height - ($iconWidth / 2);
+  top: $header-height - calc($iconWidth / 2);
   right: 5px;
   display: flex;
   max-height: 0;

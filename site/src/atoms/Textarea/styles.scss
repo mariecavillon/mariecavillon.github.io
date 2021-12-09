@@ -8,14 +8,14 @@ $padding: $padding-sm;
 
 .container {
   display: inline-block;
-  margin-top: $padding * 2;
+  margin-top: calc($padding * 2);
   width: 100%;
 }
 
 .subContainer {
   position: relative;
   border-bottom: 1px solid $color-dark-grey;
-  padding: ($padding / 2) 0;
+  padding: (calc($padding / 2)) 0;
 
   label {
     position: absolute;
@@ -45,7 +45,7 @@ $padding: $padding-sm;
     }
 
     &[value=""] + label {
-      bottom: $padding / 2;
+      bottom: calc($padding / 2);
     }
 
     &:not([value=""]) + label {
@@ -64,7 +64,7 @@ $padding: $padding-sm;
 
   svg {
     position: absolute;
-    bottom: $padding / 2;
+    bottom: calc($padding / 2);
     right: 0;
     width: $font-size;
     height: $font-size;
@@ -72,7 +72,7 @@ $padding: $padding-sm;
 }
 
 .helper {
-  padding: ($padding / 2) 0;
+  padding: (calc($padding / 2)) 0;
   font-size: $font-sm;
 }
 
