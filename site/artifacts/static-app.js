@@ -4122,7 +4122,7 @@ var Home_Home = function Home() {
     className: Home_styles_default.a.title
   }, /*#__PURE__*/external_react_default.a.createElement("span", {
     className: Home_styles_default.a.titleBig
-  }, "Le Coaching des Scale-Ups, Explorateurs de Sens & Global Nomads"), /*#__PURE__*/external_react_default.a.createElement("span", null, "J\u2019aide les femmes entreprenantes et engag\xE9es comme moi \xE0 construire une carri\xE8re \xE9panouissante et impactante !"))))), /*#__PURE__*/external_react_default.a.createElement(atoms["i" /* Grid */], {
+  }, "Le Coaching en ligne Trilingue"), /*#__PURE__*/external_react_default.a.createElement("span", null, "des Scale-Ups, Explorateurs de Sens & Global Nomads"))))), /*#__PURE__*/external_react_default.a.createElement(atoms["i" /* Grid */], {
     col: "1"
   }, /*#__PURE__*/external_react_default.a.createElement(atoms["i" /* Grid */].Item, {
     col: "1"
