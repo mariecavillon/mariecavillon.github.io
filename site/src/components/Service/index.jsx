@@ -93,7 +93,7 @@ export const Service = () => {
             </div>
           </Grid.Item>
           <Grid.Item col="0011" className={styles.container}>
-            <SubTitle><span className={styles.containerSpan}>Les</span>Global Nomads<span className={styles.containerSpanBottom}>(Particuliers)</span></SubTitle>
+            <SubTitle><span className={styles.containerSpan}>Les</span>Global Citizens<span className={styles.containerSpanBottom}>(Particuliers)</span></SubTitle>
             <div className={styles.containerCta}>
               <Modal>
                 <Modal.Consumer>
@@ -102,7 +102,7 @@ export const Service = () => {
                   )}
                 </Modal.Consumer>
                 <Modal.Content>
-                  <SubTitle><span className={styles.containerSpan}>Les</span>Global Nomads</SubTitle>
+                  <SubTitle><span className={styles.containerSpan}>Les</span>Global Citizens</SubTitle>
                   <Paragraph className={styles.left}><b>Expats</b> ou <b>A-CCK</b>*,  vous vous caractérisez par une <b>vie hautement mobile</b>.</Paragraph>
                   <Paragraph className={styles.left}>Le <b>changement</b> et la <b>nouveauté</b> font partie intégrante de votre quotidien. C’est excitant mais ça comporte aussi son <b>lot de challenge: appréhender la dimension émotionnelle de la complexité culturelle</b> (intégration, adaptation constante, recherche de stabilité & de repère, chamboulement identitaire…)</Paragraph>
                   <Paragraph className={styles.left}>Autant de sujet que nous pouvons aborder ensemble pour que vous puissiez <b>profiter pleinement</b> de ces expériences multiculturelles et transformantes!</Paragraph>
@@ -116,7 +116,7 @@ export const Service = () => {
                   )}
                 </Modal.Consumer>
                 <Modal.Content>
-                  <SubTitle><span className={styles.containerSpan}>Les</span>Global Nomads</SubTitle>
+                  <SubTitle><span className={styles.containerSpan}>Les</span>Global Citizens</SubTitle>
                   <List className={styles.left}>
                     <List.Item><SubTitle small>Arrivée & Intégration</SubTitle>Appropriation des codes culturels, organisation de sa nouvelle vie...</List.Item>
                     <List.Item><SubTitle small>Adaptation & Identité</SubTitle>Choc culturel, questions identitaires, perte de repères, sentiment d’appartenance...</List.Item>
@@ -195,7 +195,7 @@ export const Service = () => {
                 </Dropdown.Trigger>
                 <Dropdown.Content>
                   <List>
-                    <List.Item>Un coaching pour Explorateurs de Sens, Global Nomads et Scale-Ups, <b>PAR</b> une Exploratrice de Sens et Global Nomad ayant travaillé en Scale-up. (En savoir plus sur moi <Link to={aboutPage.path}>ici</Link>)<br/><br/>Ainsi, parce que je connais ces enjeux et la complexité de ces environnements, parce que j’ai traversé les <b>difficultés</b> qui vont avec, j’ai choisi d’apporter ce <b>soutien</b> à ceux qui traverse les mêmes épreuves.</List.Item>
+                    <List.Item>Un coaching pour Explorateurs de Sens, Global Citizens et Scale-Ups, <b>PAR</b> une Exploratrice de Sens et Global Nomad ayant travaillé en Scale-up. (En savoir plus sur moi <Link to={aboutPage.path}>ici</Link>)<br/><br/>Ainsi, parce que je connais ces enjeux et la complexité de ces environnements, parce que j’ai traversé les <b>difficultés</b> qui vont avec, j’ai choisi d’apporter ce <b>soutien</b> à ceux qui traverse les mêmes épreuves.</List.Item>
                   </List>
                 </Dropdown.Content>
               </Dropdown>
