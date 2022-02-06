@@ -17,8 +17,8 @@ export const Home = () => {
         <div className={styles.titleWrapper}>
           <div className={styles.titleText}>
             <h1 className={styles.title}>
-              <span className={styles.titleBig}>Le Coaching Digital Trilingue</span>
-              <span>des Scale-Ups, Explorateurs de Sens & Global Nomads</span>
+              <span className={styles.titleBig}>Le Coaching des Scale-Ups, Explorateurs de Sens & Global Nomads</span>
+              <span>J’aide les femmes entreprenantes et engagées comme moi à construire une carrière épanouissante et impactante !</span>
             </h1>
           </div>
         </div>
