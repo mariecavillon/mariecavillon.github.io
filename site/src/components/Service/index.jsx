@@ -31,9 +31,9 @@ export const Service = () => {
                 </Modal.Consumer>
                 <Modal.Content>
                   <SubTitle><span className={styles.containerSpan}>Les</span>Scale-Ups</SubTitle>
-                  <Paragraph className={styles.left}>Vous avez de la traction, votre offre commence à prendre et vous souhaitez maintenant <b>changer d'échelle</b> en <b>accélerant votre croissance</b>, et ce éventuellement à l'<b>international</b></Paragraph>
-                  <Paragraph className={styles.left}>Le <b>capital humain</b>, est un enjeu essentiel pour vous dans cette phase critique de développement où il faut <b>se démultiplier sans perdre son ADN</b>: structuration et sécurisation de votre croissance, développement et recrutement de talents, besoin de renforcement du leadership dans des équipes et <b>environnements extrémement variés et souvent multiculturels</b> (non pas seulement démographique, mais en terme d'idée et de perspectives).</Paragraph>
-                  <Paragraph className={styles.left}>Adressons les ensemble.</Paragraph>
+                  <Paragraph className={styles.left}>Vous souhaitez <b>changer d'échelle</b> en <b>accélerant votre croissance</b>, et ce éventuellement à l'<b>international</b></Paragraph>
+                  <Paragraph className={styles.left}>Le <b>capital humain</b>, est un enjeu essentiel pour vous dans cette phase critique de développement où il faut <b>se démultiplier sans perdre son ADN</b>: structuration et sécurisation de votre croissance, développement et recrutement de talents, besoin de renforcement du leadership dans des équipes et <b>environnements extrémement variés et souvent multiculturels</b> (multiplicité des nationalités, idées, backgrounds, métiers, expertises...).</Paragraph>
+                  <Paragraph className={styles.left}><b>Adressons les ensemble.</b></Paragraph>
                 </Modal.Content>
               </Modal>
               <Modal>
@@ -45,9 +45,9 @@ export const Service = () => {
                 <Modal.Content>
                   <SubTitle><span className={styles.containerSpan}>Les</span>Scale-Ups</SubTitle>
                   <List className={styles.left}>
-                    <List.Item><SubTitle small>Organisation des méthodes de travail</SubTitle>implémentation et suivi d'OKR, clarification des rôles et responsabilités dans des organisations souvent transverses et matricielles, gestion et efficacité des process, réunions et modes de communication (agenda, rôles partagés, modalités de décisions, outils de communication...), facilitation au Co-dev<br/>&nbsp;</List.Item>
-                    <List.Item><SubTitle small>Accompagnement continue des talents et middle management</SubTitle>mieux se connaître, identifier ses axes de développement et construire des plans d'actions, communiquer efficacement, prendre sa place en restant authentique, fonctionner efficacement et en confiance avec ses équipes - en présentiel ou en distanciel<br/>&nbsp;</List.Item>
-                    <List.Item><SubTitle small>Management muticulturel & diversite</SubTitle>Internationalisation des équipes et/ou gestion d'équipes matricielles: être conscient de ses orientations cross-culturelles, normes et valeurs, découvrir comment les élargir, apprendre à idenfiier celle des autres et efficacement réduire les differences culturelles (communication, modes de travail...)</List.Item>
+                    <List.Item><SubTitle small>Organisation des méthodes de travail</SubTitle>implémentation et suivi d'OKR, clarification des rôles et responsabilités, modes de communications et modalités de décisions dans des organisations souvent transverses et matricielles, gestion et efficacité des process...<br/>&nbsp;</List.Item>
+                    <List.Item><SubTitle small>Accompagnement continue des talents et du middle management</SubTitle>Coaching en 1to 1 ou facilitation au Co-développement, avec une approche intégrative (GROW, Spirale dynamique, CNV, Analyse transactionnelle, PNL...)<br/>&nbsp;</List.Item>
+                    <List.Item><SubTitle small>"Cultural awareness" & diversite</SubTitle>Internationalisation des équipes et/ou gestion d'équipes matricielles: Introduction à la CNV et Ateliers de groupe sur l'"Intelligence culturelle" (apprendre à être conscient de ses orientations cross-culturelles, normes et valeurs, découvrir comment les élargir, apprendre à idenfiier celle des autres et efficacement réduire les differences culturelles (communication, modes de travail...)</List.Item>
                   </List>
                   <div className={styles.containerCta}><Button to={contactPage.path} onClick={sendEvent(...gaTags.service.button.modal.scaleup.contact)}>Contactez moi</Button></div>
                 </Modal.Content>
