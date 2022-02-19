@@ -212,7 +212,7 @@ var Button_Button = function Button(_ref) {
 };
 /* harmony default export */ var atoms_Button = (Button_Button);
 // EXTERNAL MODULE: external "@babel/runtime/helpers/extends"
-var extends_ = __webpack_require__(27);
+var extends_ = __webpack_require__(26);
 var extends_default = /*#__PURE__*/__webpack_require__.n(extends_);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/slicedToArray"
@@ -3238,7 +3238,7 @@ var Link_CustomLink = function CustomLink(_ref) {
 };
 /* harmony default export */ var Link = (Link_CustomLink);
 // EXTERNAL MODULE: /home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/src/atoms/Animate/styles.scss
-var Animate_styles = __webpack_require__(28);
+var Animate_styles = __webpack_require__(27);
 var Animate_styles_default = /*#__PURE__*/__webpack_require__.n(Animate_styles);
 
 // CONCATENATED MODULE: /home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/src/atoms/Animate/index.jsx
@@ -4092,7 +4092,7 @@ var Footer_Footer = function Footer() {
 };
 /* harmony default export */ var components_Footer = (Footer_Footer);
 // EXTERNAL MODULE: /home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/src/components/Home/styles.scss
-var Home_styles = __webpack_require__(26);
+var Home_styles = __webpack_require__(28);
 var Home_styles_default = /*#__PURE__*/__webpack_require__.n(Home_styles);
 
 // CONCATENATED MODULE: /home/runner/work/mariecavillon.github.io/mariecavillon.github.io/site/src/components/Home/index.jsx
@@ -4122,7 +4122,7 @@ var Home_Home = function Home() {
     className: Home_styles_default.a.title
   }, /*#__PURE__*/external_react_default.a.createElement("span", {
     className: Home_styles_default.a.titleBig
-  }, "Le Coaching en ligne Trilingue"), /*#__PURE__*/external_react_default.a.createElement("span", null, "des Scale-Ups, Explorateurs de Sens & Global Citizens"))))), /*#__PURE__*/external_react_default.a.createElement(atoms["i" /* Grid */], {
+  }, " Accueillez votre Transformation Culturelle"), /*#__PURE__*/external_react_default.a.createElement("span", null, "pour les Organisations et les Individus avides de Changement et de Diversit\xE9"))))), /*#__PURE__*/external_react_default.a.createElement(atoms["i" /* Grid */], {
     col: "1"
   }, /*#__PURE__*/external_react_default.a.createElement(atoms["i" /* Grid */].Item, {
     col: "1"
@@ -4136,9 +4136,7 @@ var Home_Home = function Home() {
     col: "11100"
   }, /*#__PURE__*/external_react_default.a.createElement(atoms["g" /* Card */], null, /*#__PURE__*/external_react_default.a.createElement(atoms["y" /* Title */], {
     noMargin: true
-  }, "Permettre \xE0 chacun de pouvoir influencer sa vie"), /*#__PURE__*/external_react_default.a.createElement(atoms["r" /* Paragraph */], {
-    className: Home_styles_default.a.paragraphWithoutBottomMargin
-  }, "Lib\xE9rez votre conscience de vous et votre pouvoir d'agir"), /*#__PURE__*/external_react_default.a.createElement(atoms["o" /* List */], null, /*#__PURE__*/external_react_default.a.createElement(atoms["o" /* List */].Item, null, "Mieux conna\xEEtre ses ", /*#__PURE__*/external_react_default.a.createElement("b", null, "motivateurs clefs"), " et ", /*#__PURE__*/external_react_default.a.createElement("b", null, "comportements")), /*#__PURE__*/external_react_default.a.createElement(atoms["o" /* List */].Item, null, "D\xE9velopper sa capacit\xE9 \xE0 ", /*#__PURE__*/external_react_default.a.createElement("b", null, "compter sur soi")), /*#__PURE__*/external_react_default.a.createElement(atoms["o" /* List */].Item, null, "Prendre conscience de son ", /*#__PURE__*/external_react_default.a.createElement("b", null, "pouvoir d'action")), /*#__PURE__*/external_react_default.a.createElement(atoms["o" /* List */].Item, null, "D\xE9couvrir ses ", /*#__PURE__*/external_react_default.a.createElement("b", null, "propres forces"), " dissimul\xE9es dans ses d\xE9fauts ou ses sympt\xF4mes"), /*#__PURE__*/external_react_default.a.createElement(atoms["o" /* List */].Item, null, "Diversifier la ", /*#__PURE__*/external_react_default.a.createElement("b", null, "lecture"), " de ses diff\xE9rentes ", /*#__PURE__*/external_react_default.a.createElement("b", null, "exp\xE9riences de vies")), /*#__PURE__*/external_react_default.a.createElement(atoms["o" /* List */].Item, null, "Imaginer ce que pourrait \xEAtre ", /*#__PURE__*/external_react_default.a.createElement("b", null, "demain"), " pour impacter aujourd'hui"), /*#__PURE__*/external_react_default.a.createElement(atoms["o" /* List */].Item, null, /*#__PURE__*/external_react_default.a.createElement("b", null, "Exp\xE9rimenter"), " par soi m\xEAme pour trouver ses propres solutions et lib\xE9rer sa capacit\xE9 d'agir")))))), /*#__PURE__*/external_react_default.a.createElement(atoms["t" /* Section */], {
+  }, "Le Changement & la Diversit\xE9 sont devenus des r\xE9alit\xE9s quotidiennes"), /*#__PURE__*/external_react_default.a.createElement(atoms["r" /* Paragraph */], null, "La Transformation ou l'int\xE9gration de ces nouvelles variables que sont le Changement et la Diversit\xE9 est ", /*#__PURE__*/external_react_default.a.createElement("b", null, "affaire d\u2019engagement r\xE9ciproque"), "."), /*#__PURE__*/external_react_default.a.createElement(atoms["r" /* Paragraph */], null, "Il y a interaction & coexistence \xE0 diff\xE9rents niveaux. chaque parts de nous, chaque entit\xE9, \xE9quipe, m\xE9tier, \xEAtre humain, organisation poss\xE8de une culture diff\xE9rente, des ", /*#__PURE__*/external_react_default.a.createElement("b", null, "r\xE9f\xE9rentiels complexes et multiples"), "."), /*#__PURE__*/external_react_default.a.createElement(atoms["r" /* Paragraph */], null, "Toute la valeur du travail en Transformation est de permettre une mise en commun de ces richesses, de trouver un terrain commun de rencontres."), /*#__PURE__*/external_react_default.a.createElement(atoms["r" /* Paragraph */], null, "L\u2019Objectif n\u2019est pas de sommer et de tout uniformiser mais de ", /*#__PURE__*/external_react_default.a.createElement("b", null, "faire \xE9merger une unit\xE9 de la diversit\xE9"), " - qu\u2019elle soit Int\xE9rieure, au niveau individuel ou Organisationnelle."))))), /*#__PURE__*/external_react_default.a.createElement(atoms["t" /* Section */], {
     bgLeft: true
   }, /*#__PURE__*/external_react_default.a.createElement(atoms["i" /* Grid */], {
     col: "4"
@@ -5450,6 +5448,29 @@ function universal(asyncModule) {
 
 /***/ }),
 /* 26 */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/helpers/extends");
+
+/***/ }),
+/* 27 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(6)(true);
+// Module
+exports.push([module.i, "._3jtk2BAZcP7zTii3yoswA1{overflow:hidden}._3FkQdeobiaqkagaGzRLWjv._3jX_TIpOeIKSFvK-18QF2C{-webkit-animation:_3FkQdeobiaqkagaGzRLWjv .5s ease-in-out;animation:_3FkQdeobiaqkagaGzRLWjv .5s ease-in-out;transition:transform .5s ease-in-out;opacity:1}._1cJAiNoVelaWgZmiq-j-pv._3jX_TIpOeIKSFvK-18QF2C{-webkit-animation:_1cJAiNoVelaWgZmiq-j-pv .5s ease-in-out;animation:_1cJAiNoVelaWgZmiq-j-pv .5s ease-in-out;transition:transform .5s ease-in-out;opacity:1}._3sKI-yX12FryJKf_kvPsVA._3jX_TIpOeIKSFvK-18QF2C{-webkit-animation:_3sKI-yX12FryJKf_kvPsVA .5s ease-in-out;animation:_3sKI-yX12FryJKf_kvPsVA .5s ease-in-out;transition:transform .5s ease-in-out;opacity:1}@-webkit-keyframes _3FkQdeobiaqkagaGzRLWjv{0%{transform:translateX(-100%);opacity:0}}@keyframes _3FkQdeobiaqkagaGzRLWjv{0%{transform:translateX(-100%);opacity:0}}@-webkit-keyframes _1cJAiNoVelaWgZmiq-j-pv{0%{transform:translateX(100%);opacity:0}}@keyframes _1cJAiNoVelaWgZmiq-j-pv{0%{transform:translateX(100%);opacity:0}}@-webkit-keyframes _3sKI-yX12FryJKf_kvPsVA{0%{transform:translateY(-100%);opacity:0}}@keyframes _3sKI-yX12FryJKf_kvPsVA{0%{transform:translateY(-100%);opacity:0}}", "",{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,yBAAQ,eAAe,CAAC,iDAAoB,yDAAkC,CAAlC,iDAAkC,CAAC,oCAAoC,CAAC,SAAS,CAAC,iDAAqB,yDAAmC,CAAnC,iDAAmC,CAAC,oCAAoC,CAAC,SAAS,CAAC,iDAAmB,yDAAiC,CAAjC,iDAAiC,CAAC,oCAAoC,CAAC,SAAS,CAAC,2CAAoB,GAAG,2BAA2B,CAAC,SAAS,CAAC,CAA7D,mCAAoB,GAAG,2BAA2B,CAAC,SAAS,CAAC,CAAC,2CAAqB,GAAG,0BAA0B,CAAC,SAAS,CAAC,CAA7D,mCAAqB,GAAG,0BAA0B,CAAC,SAAS,CAAC,CAAC,2CAAmB,GAAG,2BAA2B,CAAC,SAAS,CAAC,CAA5D,mCAAmB,GAAG,2BAA2B,CAAC,SAAS,CAAC","file":"styles.scss","sourcesContent":[".parent{overflow:hidden}.fromLeft.isVisible{animation:fromLeft .5s ease-in-out;transition:transform .5s ease-in-out;opacity:1}.fromRight.isVisible{animation:fromRight .5s ease-in-out;transition:transform .5s ease-in-out;opacity:1}.fromTop.isVisible{animation:fromTop .5s ease-in-out;transition:transform .5s ease-in-out;opacity:1}@keyframes fromLeft{0%{transform:translateX(-100%);opacity:0}}@keyframes fromRight{0%{transform:translateX(100%);opacity:0}}@keyframes fromTop{0%{transform:translateY(-100%);opacity:0}}"]}]);
+
+// Exports
+exports.locals = {
+	"parent": "_3jtk2BAZcP7zTii3yoswA1",
+	"fromLeft": "_3FkQdeobiaqkagaGzRLWjv",
+	"isVisible": "_3jX_TIpOeIKSFvK-18QF2C",
+	"fromRight": "_1cJAiNoVelaWgZmiq-j-pv",
+	"fromTop": "_3sKI-yX12FryJKf_kvPsVA"
+};
+
+/***/ }),
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(6)(true);
@@ -5477,29 +5498,6 @@ exports.locals = {
 	"exceptionSubtitle": "_3S_0IFX509EMzwfXoE3WO",
 	"important": "_2Ga6pG2T5dX8gEdmoELIYr",
 	"marginTop": "B_JTQTtc3nUy-3SNetWxF"
-};
-
-/***/ }),
-/* 27 */
-/***/ (function(module, exports) {
-
-module.exports = require("@babel/runtime/helpers/extends");
-
-/***/ }),
-/* 28 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(6)(true);
-// Module
-exports.push([module.i, "._3jtk2BAZcP7zTii3yoswA1{overflow:hidden}._3FkQdeobiaqkagaGzRLWjv._3jX_TIpOeIKSFvK-18QF2C{-webkit-animation:_3FkQdeobiaqkagaGzRLWjv .5s ease-in-out;animation:_3FkQdeobiaqkagaGzRLWjv .5s ease-in-out;transition:transform .5s ease-in-out;opacity:1}._1cJAiNoVelaWgZmiq-j-pv._3jX_TIpOeIKSFvK-18QF2C{-webkit-animation:_1cJAiNoVelaWgZmiq-j-pv .5s ease-in-out;animation:_1cJAiNoVelaWgZmiq-j-pv .5s ease-in-out;transition:transform .5s ease-in-out;opacity:1}._3sKI-yX12FryJKf_kvPsVA._3jX_TIpOeIKSFvK-18QF2C{-webkit-animation:_3sKI-yX12FryJKf_kvPsVA .5s ease-in-out;animation:_3sKI-yX12FryJKf_kvPsVA .5s ease-in-out;transition:transform .5s ease-in-out;opacity:1}@-webkit-keyframes _3FkQdeobiaqkagaGzRLWjv{0%{transform:translateX(-100%);opacity:0}}@keyframes _3FkQdeobiaqkagaGzRLWjv{0%{transform:translateX(-100%);opacity:0}}@-webkit-keyframes _1cJAiNoVelaWgZmiq-j-pv{0%{transform:translateX(100%);opacity:0}}@keyframes _1cJAiNoVelaWgZmiq-j-pv{0%{transform:translateX(100%);opacity:0}}@-webkit-keyframes _3sKI-yX12FryJKf_kvPsVA{0%{transform:translateY(-100%);opacity:0}}@keyframes _3sKI-yX12FryJKf_kvPsVA{0%{transform:translateY(-100%);opacity:0}}", "",{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,yBAAQ,eAAe,CAAC,iDAAoB,yDAAkC,CAAlC,iDAAkC,CAAC,oCAAoC,CAAC,SAAS,CAAC,iDAAqB,yDAAmC,CAAnC,iDAAmC,CAAC,oCAAoC,CAAC,SAAS,CAAC,iDAAmB,yDAAiC,CAAjC,iDAAiC,CAAC,oCAAoC,CAAC,SAAS,CAAC,2CAAoB,GAAG,2BAA2B,CAAC,SAAS,CAAC,CAA7D,mCAAoB,GAAG,2BAA2B,CAAC,SAAS,CAAC,CAAC,2CAAqB,GAAG,0BAA0B,CAAC,SAAS,CAAC,CAA7D,mCAAqB,GAAG,0BAA0B,CAAC,SAAS,CAAC,CAAC,2CAAmB,GAAG,2BAA2B,CAAC,SAAS,CAAC,CAA5D,mCAAmB,GAAG,2BAA2B,CAAC,SAAS,CAAC","file":"styles.scss","sourcesContent":[".parent{overflow:hidden}.fromLeft.isVisible{animation:fromLeft .5s ease-in-out;transition:transform .5s ease-in-out;opacity:1}.fromRight.isVisible{animation:fromRight .5s ease-in-out;transition:transform .5s ease-in-out;opacity:1}.fromTop.isVisible{animation:fromTop .5s ease-in-out;transition:transform .5s ease-in-out;opacity:1}@keyframes fromLeft{0%{transform:translateX(-100%);opacity:0}}@keyframes fromRight{0%{transform:translateX(100%);opacity:0}}@keyframes fromTop{0%{transform:translateY(-100%);opacity:0}}"]}]);
-
-// Exports
-exports.locals = {
-	"parent": "_3jtk2BAZcP7zTii3yoswA1",
-	"fromLeft": "_3FkQdeobiaqkagaGzRLWjv",
-	"isVisible": "_3jX_TIpOeIKSFvK-18QF2C",
-	"fromRight": "_1cJAiNoVelaWgZmiq-j-pv",
-	"fromTop": "_3sKI-yX12FryJKf_kvPsVA"
 };
 
 /***/ }),
@@ -7314,7 +7312,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__(27));
+var _extends2 = _interopRequireDefault(__webpack_require__(26));
 
 var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(24));
 
