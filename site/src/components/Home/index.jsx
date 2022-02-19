@@ -17,8 +17,8 @@ export const Home = () => {
         <div className={styles.titleWrapper}>
           <div className={styles.titleText}>
             <h1 className={styles.title}>
-              <span className={styles.titleBig}>Le Coaching en ligne Trilingue</span>
-              <span>des Scale-Ups, Explorateurs de Sens & Global Citizens</span>
+              <span className={styles.titleBig}> Accueillez votre Transformation Culturelle</span>
+              <span>pour les Organisations et les Individus avides de Changement et de Diversité</span>
             </h1>
           </div>
         </div>
@@ -32,17 +32,11 @@ export const Home = () => {
         <Grid col="5">
           <Grid.Item col="11100">
             <Card>
-              <Title noMargin>Permettre à chacun de pouvoir influencer sa vie</Title>
-                <Paragraph className={styles.paragraphWithoutBottomMargin}>Libérez votre conscience de vous et votre pouvoir d'agir</Paragraph>
-                <List>
-                  <List.Item>Mieux connaître ses <b>motivateurs clefs</b> et <b>comportements</b></List.Item>
-                  <List.Item>Développer sa capacité à <b>compter sur soi</b></List.Item>
-                  <List.Item>Prendre conscience de son <b>pouvoir d'action</b></List.Item>
-                  <List.Item>Découvrir ses <b>propres forces</b> dissimulées dans ses défauts ou ses symptômes</List.Item>
-                  <List.Item>Diversifier la <b>lecture</b> de ses différentes <b>expériences de vies</b></List.Item>
-                  <List.Item>Imaginer ce que pourrait être <b>demain</b> pour impacter aujourd'hui</List.Item>
-                  <List.Item><b>Expérimenter</b> par soi même pour trouver ses propres solutions et libérer sa capacité d'agir</List.Item>
-                </List>
+              <Title noMargin>Le Changement & la Diversité sont devenus des réalités quotidiennes</Title>
+              <Paragraph>La Transformation ou l'intégration de ces nouvelles variables que sont le Changement et la Diversité est <b>affaire d’engagement réciproque</b>.</Paragraph>
+              <Paragraph>Il y a interaction & coexistence à différents niveaux. chaque parts de nous, chaque entité, équipe, métier, être humain, organisation possède une culture différente, des <b>référentiels complexes et multiples</b>.</Paragraph>
+              <Paragraph>Toute la valeur du travail en Transformation est de permettre une mise en commun de ces richesses, de trouver un terrain commun de rencontres.</Paragraph>
+              <Paragraph>L’Objectif n’est pas de sommer et de tout uniformiser mais de <b>faire émerger une unité de la diversité</b> - qu’elle soit Intérieure, au niveau individuel ou Organisationnelle.</Paragraph>
             </Card>
           </Grid.Item>
         </Grid>
