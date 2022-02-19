@@ -18,7 +18,7 @@ export const Home = () => {
           <div className={styles.titleText}>
             <h1 className={styles.title}>
               <span className={styles.titleBig}> Accueillez votre Transformation Culturelle</span>
-              <span>pour les Organisations et les Individus avides de Changement et de Diversité</span>
+              <span>pour les Organisations et les Individus<br/>avides de Changement et de Diversité</span>
             </h1>
           </div>
         </div>
