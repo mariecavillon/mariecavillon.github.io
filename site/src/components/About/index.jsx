@@ -18,9 +18,9 @@ export const About = () => {
           <Grid.Item col="011">
             <Card>
               <Title>Bonjour, moi c'est Marie</Title>
-              <Paragraph>J'ai grandi, vécu et travaillé à l'<b>étranger</b> et dans des environnement <b>multiculturels</b> toute ma vie (9 pays différents à mon actif, sur 6 continents!), ce qui a façonné qui je suis et les projets que j’entreprends.<br/></Paragraph>
+              <Paragraph>J'ai grandi, vécu et travaillé à l'<b>étranger</b> et dans des environnements <b>multiculturels</b> toute ma vie (9 pays différents à mon actif, sur 6 continents!), ce qui a façonné qui je suis et les projets que j’entreprends.<br/></Paragraph>
               <SubTitle>De la Transformation Digitale à la Transformation Intérieure</SubTitle>
-              <Paragraph>J’ai débuté ma carrière dans l’<b>accompagnement d’entreprises</b>, sur des sujets de transformation digital, sur des projets très variés et dans des environnements toujours challengeants & innovants - en agence, puis en conseil, pour finir en start-up /scale-up.</Paragraph>
+              <Paragraph>J’ai débuté ma carrière dans l’<b>accompagnement d’entreprises</b>, sur des sujets de transformation digitale, sur des projets très variés et dans des environnements toujours challengeants & innovants - en agence, puis en conseil, pour finir en start-up /scale-up.</Paragraph>
               <Paragraph>Passionnée par ce qui meut l’être humain et les rend si uniques, mes rôles de Manager ont renforcés mon envie d’accompagner les personnes dans leur <b>potentialisation</b>.<br/>C’est en suivant cette envie intérieure forte, et fort du constat que nous sommes nombreux à accepter les status quo en limitant ainsi nos options de développement et de réalisation, que j’ai souhaité approfondir ma connaissance de la psychologie et du développement humain. Je suis maintenant <b>Coach certifiée</b>* depuis Septembre 2020, avec près de <b>100 heures de pratique</b> à mon actif.<br/><small>(*titre RNCP - reconnu par l'Etat - et ICF niveau PCC)</small></Paragraph>
             </Card>
           </Grid.Item>
