@@ -33,7 +33,7 @@ export const Service = () => {
                   <SubTitle><span className={styles.containerSpan}>Les</span>Scale-Ups</SubTitle>
                   <Paragraph className={styles.left}>Vous souhaitez <b>changer d'échelle</b> en <b>accélerant votre croissance</b>, et ce éventuellement à l'<b>international</b></Paragraph>
                   <Paragraph className={styles.left}>Le <b>capital humain</b>, est un enjeu essentiel pour vous dans cette phase critique de développement où il faut <b>se démultiplier sans perdre son ADN</b>: structuration et sécurisation de votre croissance, développement et recrutement de talents, besoin de renforcement du leadership dans des équipes et <b>environnements extrémement variés et souvent multiculturels</b> (multiplicité des nationalités, idées, backgrounds, métiers, expertises...).</Paragraph>
-                  <Paragraph className={styles.left}><b>Adressons les ensemble.</b></Paragraph>
+                  <Paragraph className={styles.left}>Adressons ces enjeux <b>ensemble.</b></Paragraph>
                 </Modal.Content>
               </Modal>
               <Modal>
