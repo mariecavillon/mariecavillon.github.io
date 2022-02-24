@@ -33,9 +33,9 @@ export const Home = () => {
           <Grid.Item col="11100">
             <Card>
               <Title noMargin>Le Changement & la Diversité sont devenus des réalités quotidiennes</Title>
-              <Paragraph>La Transformation ou l'intégration de ces nouvelles variables que sont le Changement et la Diversité est <b>affaire d’engagement réciproque</b>.</Paragraph>
+              <Paragraph>L'intégration de ces nouvelles variables et la Transformation qu'elle implique est <b>affaire d’engagement réciproque</b>.</Paragraph>
               <Paragraph>Il y a interaction & coexistence à différents niveaux. chaque parts de nous, chaque entité, équipe, métier, être humain, organisation possède une culture différente, des <b>référentiels complexes et multiples</b>.</Paragraph>
-              <Paragraph>Toute la valeur du travail en Transformation est de permettre une mise en commun de ces richesses, de trouver un terrain commun de rencontres.</Paragraph>
+              <Paragraph>Toute la valeur du travail en Transformation est de permettre une <b>mise en commun de ces richesses</b>, de trouver un <b>terrain commun de rencontres</b>.</Paragraph>
               <Paragraph>L’Objectif n’est pas de sommer et de tout uniformiser mais de <b>faire émerger une unité de la diversité</b> - qu’elle soit Intérieure, au niveau individuel ou Organisationnelle.</Paragraph>
             </Card>
           </Grid.Item>
